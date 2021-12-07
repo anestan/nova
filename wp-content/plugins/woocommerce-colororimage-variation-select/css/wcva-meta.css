@@ -1,0 +1,71 @@
+.wcvaheader {
+font-family: Sans-serif;
+font-size: 16px;
+}
+
+.wcvaformfield {
+font-family: Sans-serif;
+font-size: 14px;
+}
+
+.wcva-upper-div. {
+ margin-bottom:20px;
+ margin-top:20px;
+}
+
+.wcva-header-table {
+ margin-bottom:20px;
+}
+.wcva-small-text {
+	font-size:10px;
+}
+
+.wcva_help_tip {
+	padding-top: 10px;
+}
+
+.wcva_ajax_update {
+ margin-top:20px;
+}
+
+
+
+.iris-picker.iris-border {
+    margin-top: 28px !important;
+}
+
+table.wp-list-table td.column-thumb img {
+  
+    max-width: 32px;
+    max-height: 32px;
+    
+}
+.previewdiv {
+	height: 30px; 
+	top: 5px; 
+	right: 5px; 
+	margin-left:170px;
+}
+.attribute-label {
+	position: absolute; 
+	top: 10px; 
+	left: 10px; 
+	font-family:Sans-serif; 
+	font-size:14px; 
+}
+.wcva_preview_textblock {
+    max-width: fit-content;
+    border: solid 2px white;
+    height: auto; 
+    width: auto; 
+    background-color: #eee;
+    color: black; 
+    border-radius: 3px; 
+    font-size: 14px!important; 
+    font-weight: 500; 
+    padding: 3px 3px;
+}
+.custom_display_size_row input[type=number] {
+    width: 10%;
+    float:none;
+}

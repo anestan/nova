@@ -1,0 +1,122 @@
+@keyframes woocs-cssload-rotate-one {
+  0%   { transform:rotateX(35deg) rotateY(-45deg) rotateZ(0)}
+  100% { transform:rotateX(35deg) rotateY(-45deg) rotateZ(360deg)}
+}
+
+@keyframes woocs-cssload-rotate-two {
+  0%   { transform:rotateX(50deg) rotateY(10deg) rotateZ(0)}
+  100% { transform:rotateX(50deg) rotateY(10deg) rotateZ(360deg)}
+}
+
+@keyframes woocs-cssload-rotate-three {
+  0%   { transform:rotateX(35deg) rotateY(55deg) rotateZ(0)}
+  100% { transform:rotateX(35deg) rotateY(55deg) rotateZ(360deg)}
+}
+
+div#tiptip_content,
+div.chart-tooltip,
+div.wc_error_tip {
+  font-size: .7em;
+  line-height: 1.6;
+  max-width: 250px;
+}
+
+.woocs-admin-preloader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff;
+
+  .woocs-cssload-loader {
+    position: absolute;
+    top: 43%;
+    left: calc(50% - 36px);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    perspective: 900px;
+
+    .woocs-cssload-inner {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      border-radius: 50%;
+
+      &.woocs-cssload-one {
+        left: 0;
+        top: 0;
+        animation: woocs-cssload-rotate-one 1.6s linear infinite;
+        border-bottom: 3px solid #79b8ff;
+      }
+
+      &.woocs-cssload-two {
+        right: 0;
+        top: 0;
+        animation: woocs-cssload-rotate-two 1.6s linear infinite;
+        border-right: 3px solid #79b8ff;
+      }
+
+      &.woocs-cssload-three {
+        right: 0;
+        bottom: 0;
+        animation: woocs-cssload-rotate-three 1.6s linear infinite;
+        border-top: 3px solid #79b8ff;
+      }
+
+    }
+
+  }
+
+}
+
+.woocs_settings_flag_tip {
+  display: flex;
+  max-width: 60px;
+
+  img {
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+div.wp-picker-holder {
+  position: absolute;
+}
+
+.woocs_hint,
+.woocs-red {
+  color: #d01c1c;
+  font-weight: 600;
+}
+
+.woocs_settings_version {
+  margin-bottom: 3px;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 20px;
+
+  .woocs__text-success {
+    color: #2eca8b;
+  }
+}
+
+.info_popup {
+  position: fixed;
+  top: 48%;
+  left: 48%;
+  z-index: 1001;
+  display: none;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: $border-radius;
+  background-color: #79b8ff;
+  color: #fff;
+  font-size: 22px;
+}

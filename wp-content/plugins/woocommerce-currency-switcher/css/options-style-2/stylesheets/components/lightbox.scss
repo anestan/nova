@@ -1,0 +1,87 @@
+.woocs__modal {
+
+  .woocs__modal-window,
+  .woocs__modal-overlay {
+    opacity: 0;
+    z-index: -1;
+    transition: all .25s ease;
+  }
+
+  &.open {
+
+    .woocs__modal-overlay,
+    .woocs__modal-window {
+      opacity: 1;
+      z-index: 1000;
+    }
+
+    .woocs__modal-overlay {
+      background: rgba(0, 0, 0, .5);
+    }
+
+   .woocs__modal-window {
+      transform: translateY(200px);
+    }
+
+  }
+
+  &.hide {
+
+    .woocs__modal-window {
+      transform: translateY(-200px);
+    }
+
+  }
+
+}
+
+.woocs__modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+
+  @media (min-width: 783px) {
+    left: 160px;
+  }
+
+}
+
+.woocs__modal-window {
+  width: 900px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+  transform: translateY(-200px);
+
+  @media (max-width: 1280px) {
+    max-width: 80%;
+  }
+}
+
+.woocs__modal-body {
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+.woocs-modal-close {
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+
+  &:hover,
+  &:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

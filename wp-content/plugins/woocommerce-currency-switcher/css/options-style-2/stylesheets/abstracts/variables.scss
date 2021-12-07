@@ -1,0 +1,28 @@
+$general-font-family: "Nunito", sans-serif;
+$general-font-size: 16px;
+$border-radius: 6px;
+$box-shadow: 0 0 3px rgb(60 72 88 / 15%);
+$white-bg-color: #fff;
+
+// Grid columns
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:                12 !default;
+$grid-gutter-width:           28px !default;
+
+$enable-grid-classes:       true !default;
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px
+) !default;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;

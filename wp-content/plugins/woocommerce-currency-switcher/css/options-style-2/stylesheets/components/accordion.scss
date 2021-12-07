@@ -1,0 +1,88 @@
+
+.woocs-accordion {
+
+  .woocs-accordion-header {
+    margin-bottom: 0;
+  }
+
+  .woocs-accordion-collapse {
+    &.collapse:not(.show) {
+      display: none;
+    }
+    &.show { display: block; }
+  }
+
+  .woocs-accordion-item {
+    overflow: hidden;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+
+    &:not(:last-child) {
+      margin-bottom: .5rem;
+    }
+
+    .woocs-accordion-button {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 1rem 1.25rem;
+      font-size: 1rem;
+      color: #212529;
+      border: 0;
+      border-radius: 0;
+      overflow-anchor: none;
+      font-weight: 600;
+      text-align: left;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+
+      &.collapsed {
+        background-color: #f8f9fc;
+        color: #3c4858;
+        transition: all 0.5s;
+
+        &:before {
+          top: 15px;
+          transform: rotate(180deg);
+          color: #3c4858;
+        }
+      }
+
+      &:not(.collapsed) {
+        color: #0c63e4;
+        background-color: #f8f9fc;
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+      }
+
+      &:before {
+        content: '\eb56';
+        font-family: unicons-line;
+        font-style: normal;
+        font-weight: 400;
+        speak: none;
+        display: inline-block;
+        text-decoration: inherit;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 24px;
+        color: #2f55d4;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all 0.5s ease;
+      }
+    }
+
+    .woocs-accordion-body {
+      padding: 1rem 1.25rem;
+    }
+
+  }
+
+}
+

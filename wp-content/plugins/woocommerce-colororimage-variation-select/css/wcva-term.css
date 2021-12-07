@@ -1,0 +1,12 @@
+table.wp-list-table td.column-thumb img {
+ 
+    max-width: 32px !important;
+    max-height: 32px !important;
+    
+}
+
+table.wp-list-table td.hoverimage img {
+
+   max-width: 30px !important;
+    max-height: 30px !important;
+}

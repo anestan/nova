@@ -1,0 +1,60 @@
+.woocs__alert {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  &-success {
+    background-color: rgba(46,202,139,0.9);
+    border-color: #2eca8b;
+    color: #fff;
+  }
+
+  &-info {
+    background-color: rgba(23, 162, 184, 0.9);
+    border-color: #17a2b8;
+    color: #fff;
+  }
+
+  &-warning {
+    background-color: rgba(241, 116, 37, 0.9);
+    border-color: #f17425;
+    color: #fff;
+  }
+
+  &-danger {
+    background-color: rgba(228, 63, 82, 0.9);
+    border-color: #e43f52;
+    color: #fff;
+  }
+
+  &-heading {
+    color: inherit;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  .woocs-fea {
+    color: #fff;
+  }
+
+  .woocs-list-unstyled {
+
+    a {
+      color: #fff;
+      vertical-align: baseline;
+
+      &:active,
+      &:hover {
+        color: #fff;
+      }
+    }
+
+  }
+
+}

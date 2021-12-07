@@ -1,0 +1,249 @@
+/*Filters overlay*/
+.wcpr-filter-container .wcpr-filter-overlay:before {
+    content: url(../images/loading-2.gif);
+    width: 64px;
+    height: 64px;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale3d(0.5, 0.5, 0.5);
+}
+
+/*WC review*/
+.kt-reviews-image-container {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.wcpr-review-title {
+    font-weight: 600;
+}
+.wcpr-review-country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 3px 0;
+}
+
+.kt-reviews-image-container .kt-wc-reviews-images {
+    margin-left: 5px;
+    margin-bottom: 0;
+    display: block;
+    float: none;
+}
+
+.kt-reviews-image-container img {
+    display: block;
+    border-radius: 3px;
+    max-height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: zoom-in;
+}
+
+.kt-wc-reviews-images-wrap-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.big-review-images {
+    width: 100%;
+    padding: 36px;
+    position: relative;
+    display: none;
+    clear: both;
+    float: left;
+    height: auto;
+    max-height: 600px;
+    border: 1px solid rgba(1, 1, 1, .1);
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.big-review-images .big-review-images-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-review-images .wcpr-close-normal {
+    background-color: white;
+    padding: 3px;
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    transition: 0.3s ease;
+    line-height: 1;
+}
+
+.big-review-images .wcpr-close-normal:before {
+    font-family: "woocommerce-photo-reviews";
+    content: "\f101";
+}
+
+.big-review-images .wcpr-next-normal:before {
+    font-family: "woocommerce-photo-reviews";
+    content: "\f105";
+}
+
+.big-review-images .wcpr-prev-normal:before {
+    font-family: "woocommerce-photo-reviews";
+    content: "\f106";
+}
+
+.big-review-images a {
+    text-decoration: none;
+}
+
+.reviews-images-item {
+    margin: 2px;
+    padding: 0;
+    float: left;
+    border-radius: 3px;
+}
+
+.kt-reviews-image-container .kt-wc-reviews-images-wrap-wrap .reviews-images-item .review-images {
+    float: left !important;
+    height: 48px !important;
+    width: auto !important;
+    border-radius: 3px;
+}
+
+.reviews-images-item:hover {
+    cursor: zoom-in;
+}
+
+.wcpr-prev-normal,
+.wcpr-next-normal {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    font-weight: bold;
+    transition: 0.3s ease;
+    border-radius: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    padding: 22px 0;
+    margin: 0;
+    color: #000;
+    font-size: 35px;
+}
+
+/* Position the "next button" to the right */
+.wcpr-next-normal {
+    right: 0;
+}
+
+.wcpr-prev-normal {
+    left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.wcpr-prev-normal:hover,
+.wcpr-next-normal:hover {
+    background-color: rgba(1, 1, 1, 0.1);
+}
+
+.big-review-images .wcpr-close-normal:hover,
+.big-review-images .wcpr-close-normal:focus {
+    text-decoration: none;
+    cursor: pointer;
+    background: rgba(1, 1, 1, .1);
+}
+
+.active-image {
+    border: 1px solid #ff5b7e;
+}
+
+.reviews-images-item.active-image {
+    cursor: zoom-out;
+}
+
+/*rotate*/
+.kt-reviews-image-container .wcpr-rotate .wcpr-rotate-left:hover,
+.kt-reviews-image-container .wcpr-rotate .wcpr-rotate-right:hover {
+    opacity: .7;
+}
+
+.kt-reviews-image-container .wcpr-rotate .wcpr-rotate-left,
+.kt-reviews-image-container .wcpr-rotate .wcpr-rotate-right {
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.kt-reviews-image-container .wcpr-rotate {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kt-reviews-image-container .big-review-images-content-container .wcpr-review-image-caption {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.kt-reviews-image-container .big-review-images-content-container {
+    position: relative;
+}
+
+@media (max-width: 480px) {
+    .big-review-images {
+        padding: 28px;
+    }
+
+    .big-review-images .wcpr-close-normal {
+        padding: 4px;
+        font-size: 20px;
+    }
+}
+/*Grid overlay when using ajax pagination*/
+.wcpr-grid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 100;
+    cursor: progress;
+}
+
+.wcpr-hidden {
+    display: none;
+}
+
+.wcpr-grid-overlay:before {
+    content: url(../images/loading-2.gif);
+    width: 64px;
+    height: 64px;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale3d(0.5, 0.5, 0.5);
+}

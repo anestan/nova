@@ -1,0 +1,2454 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-06-28 16:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"MIME-Version: 1.0\n"
+"Language: es_ES\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=2; plural=n != 1;"
+
+#: views/plugin_options_2.php:1947 views/plugin_options_1.php:1433
+msgid "$ P - left space"
+msgstr "$ P - espacio a la izquierda"
+
+#: views/plugin_options_2.php:1951 views/plugin_options_1.php:1437
+msgid "$P - left"
+msgstr "$ P - izquierda"
+
+#: classes/woocs_after_33.php:4806
+msgid "(Approx. %s)"
+msgstr "(Aprox. %s)"
+
+#: views/plugin_options_2.php:1967
+msgid "+ to your interest in the rate, example values: 0.15, 20%"
+msgstr "+ a su interés en la tasa, por ejemplo: 0,15, 20%"
+
+#: views/plugin_options_1.php:1488
+msgid "+ to your interest in the rate, for example: 0.15"
+msgstr "+ a su interés en la tasa, por ejemplo: 0,15"
+
+#: views/shortcodes/woocs_rates.php:45
+msgid "1 %s is"
+msgstr "1 %s es"
+
+#: views/plugin_options_2.php:851 views/plugin_options_1.php:645
+msgid "a hint"
+msgstr "la pista"
+
+#: views/plugin_options_2.php:25 views/plugin_options_1.php:141
+msgid "Actualized for WooCommerce v.%s.x"
+msgstr "Actualizado para WooCommerce v.%s.x"
+
+#: views/fixed/product_coupon_data.php:53
+#: views/fixed/product_coupon_restriction_data.php:58
+#: views/fixed/product_price_data.php:127
+msgid "Add"
+msgstr "Añadir"
+
+#: views/fixed/product_coupon_data.php:54
+#: views/fixed/product_coupon_restriction_data.php:59
+#: views/fixed/product_price_data.php:128
+msgid "Add all"
+msgstr "Añadir todo"
+
+#: views/plugin_options_1.php:243
+msgid "Add Currency"
+msgstr "Agregar moneda"
+
+#: views/plugin_options_2.php:121
+msgid "Add custom currency symbols"
+msgstr "Agregar símbolos de moneda"
+
+#: views/plugin_options_1.php:245
+msgid "Add custom money sign"
+msgstr "Agregar letrero de dinero personalizado"
+
+#: views/fixed/product_user_role_data.php:63
+#: views/fixed/product_price_data.php:154
+msgid "Add group"
+msgstr "Añadir grupo"
+
+#: views/plugin_options_2.php:1392 views/plugin_options_1.php:1022
+msgid "Add new profile"
+msgstr "Añadir nuevo perfil"
+
+#: views/plugin_options_2.php:1430 views/plugin_options_1.php:1059
+msgid "Add to:"
+msgstr "Añadir:"
+
+#: views/plugin_options_2.php:396
+msgid ""
+"Add your custom currencies symbols in your shop. Example: $USD,AAA,AUD$,DDD,"
+"X - separated by commas"
+msgstr ""
+"Agregue sus símbolos de moneda personalizados en su tienda. Ejemplo: $ USD, "
+"AAA, AUD $, DDD, X - separados por comas"
+
+#: views/plugin_options_1.php:95
+msgid ""
+"Add your money symbols in your shop. Example: $USD,AAA,AUD$,DDD - separated "
+"by commas"
+msgstr ""
+"Agregue sus símbolos de dinero en su tienda. Ejemplo: $ USD, AAA, AUD $, DDD "
+"- separados por comas"
+
+#: views/plugin_options_2.php:53 views/plugin_options_1.php:175
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: views/plugin_options_1.php:427
+msgid ""
+"After cron done - new currency rates will be sent on the site admin email. "
+"ATTENTION: if you not got emails - it is mean that PHP function mail() "
+"doesnt work on your server or sending emails by this function is locked."
+msgstr ""
+"Una vez hecho el cron, se enviarán nuevas tasas de cambio en el correo "
+"electrónico del administrador del sitio. ATENCIÓN: si no recibió correos "
+"electrónicos, significa que la función PHP mail () no funciona en su "
+"servidor o que el envío de correos electrónicos mediante esta función está "
+"bloqueado."
+
+#: views/plugin_options_2.php:522
+msgid ""
+"After cron done its job - new currency rates will be sent on the site admin "
+"email. ATTENTION: if you not got emails - it is mean that PHP function mail()"
+" doesnt work on your server or sending emails by this function is locked."
+msgstr ""
+"Una vez que cron haya hecho su trabajo, se enviarán nuevas tasas de cambio "
+"en el correo electrónico del administrador del sitio. ATENCIÓN: si no "
+"recibió correos electrónicos, significa que la función PHP mail () no "
+"funciona en su servidor o que el envío de correos electrónicos mediante esta "
+"función está bloqueado."
+
+#: views/plugin_options_2.php:279 views/plugin_options_1.php:35
+msgid "Aggregator API key"
+msgstr "Clave de API de agregador"
+
+#: views/plugin_options_2.php:219
+msgid "Append Currency"
+msgstr "Agregar moneda"
+
+#: classes/smart-designer.php:50
+msgid "Are you sure?"
+msgstr "Estas seguro"
+
+#: classes/fixed/fixed_shipping.php:30 classes/fixed/fixed_shipping_free.php:30
+#: views/fixed/product_user_role_data.php:25
+#: views/fixed/product_user_role_data.php:31
+#: views/fixed/product_coupon_data.php:12
+#: views/fixed/product_coupon_restriction_data.php:12
+#: views/fixed/product_coupon_restriction_data.php:16
+#: views/fixed/product_price_data.php:13 views/fixed/product_price_data.php:19
+#: views/fixed/product_price_data.php:43 views/fixed/product_price_data.php:49
+msgid "auto"
+msgstr "auto"
+
+#: classes/smart-designer.php:72
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: views/woocs_order_metabox.php:25
+msgid "Base currency"
+msgstr "Moneda base"
+
+#: classes/woocs_after_33.php:879
+msgid "Base currency of the site is: %s"
+msgstr "La moneda base del sitio es: %s"
+
+#: views/plugin_options_2.php:174 views/plugin_options_2.php:1893
+#: views/plugin_options_1.php:306 views/plugin_options_1.php:322
+msgid "Basic"
+msgstr "Basico"
+
+#: views/plugin_options_2.php:1065 views/plugin_options_1.php:812
+msgid "Basic field(s)"
+msgstr "Campo (s) básico (s)"
+
+#: views/plugin_options_2.php:1251 views/plugin_options_1.php:904
+msgid "Behavior"
+msgstr "Comportamiento"
+
+#: views/plugin_options_2.php:1149 views/plugin_options_1.php:860
+msgid "Behavior for devices"
+msgstr "Comportamiento de los dispositivos"
+
+#: classes/smart-designer.php:64
+msgid "Border color"
+msgstr "Color del borde"
+
+#: classes/smart-designer.php:63
+msgid "Border radius"
+msgstr "Radio de borde"
+
+#: classes/smart-designer.php:76
+msgid "Border width"
+msgstr "Ancho del borde"
+
+#: views/plugin_options_2.php:1394 views/plugin_options_1.php:1026
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: views/woocs_order_metabox.php:40
+msgid "cancel"
+msgstr "cancelar"
+
+#: views/plugin_options_2.php:187 views/plugin_options_2.php:2027
+#: views/plugin_options_1.php:313 views/plugin_options_1.php:329
+msgid "Cents"
+msgstr "Centavos"
+
+#: views/woocs_order_metabox.php:35
+msgid "Change order currency"
+msgstr "Cambiar moneda de orden"
+
+#: views/woocs_order_metabox.php:35
+msgid "Change the order currency to any other"
+msgstr "Cambie la moneda del pedido a cualquier otra"
+
+#: classes/woocs_after_33.php:5161
+msgid "change the rate and this description to the right values"
+msgstr "Cambia la tasa y esta descripción a los valores correctos."
+
+#: views/plugin_options_2.php:1475 views/plugin_options_1.php:1098
+msgid "Chart type: bar"
+msgstr "Tipo de gráfico: barra"
+
+#: views/plugin_options_2.php:1474 views/plugin_options_1.php:1097
+msgid "Chart type: pie"
+msgstr "Tipo de gráfico: pastel"
+
+#: views/plugin_options_2.php:1571
+msgid "Check please already prepared answers"
+msgstr "Cheque por favor respuestas ya preparadas"
+
+#: views/plugin_options_2.php:753 views/plugin_options_1.php:590
+msgid "Checkout by GeoIP rules"
+msgstr "Pago por reglas de GeoIP"
+
+#: views/plugin_options_2.php:1161 views/plugin_options_1.php:872
+#| msgid "Choise behavior"
+msgid "Choice behaviour"
+msgstr "Elegir comportamiento"
+
+#: views/plugin_options_2.php:1281 views/plugin_options_1.php:926
+#| msgid "Choise currencies"
+msgid "Choice currencies"
+msgstr "Elegir monedas"
+
+#: views/plugin_options_2.php:1027 views/plugin_options_1.php:752
+#| msgid "Choise side"
+msgid "Choice side"
+msgstr "Elegir lado"
+
+#: views/plugin_options_2.php:994 views/plugin_options_1.php:727
+#| msgid "Choise skin"
+msgid "Choice skin"
+msgstr "Elige la piel"
+
+#: views/plugin_options_2.php:135 views/plugin_options_1.php:260
+msgid "Chosen dark drop-down"
+msgstr "Menú desplegable oscuro elegido"
+
+#: views/plugin_options_2.php:134 views/plugin_options_1.php:259
+msgid "Chosen drop-down"
+msgstr "Menú desplegable elegido"
+
+#: views/plugin_options_2.php:987 views/plugin_options_1.php:720
+msgid "Classic blocks"
+msgstr "Bloques clásicos"
+
+#: views/plugin_options_2.php:1298 views/plugin_options_2.php:1355
+msgid "Clear all"
+msgstr "Limpiar todo"
+
+#: views/plugin_options_1.php:943 views/plugin_options_1.php:997
+msgid "clear all"
+msgstr "limpiar todo"
+
+#: views/plugin_options_2.php:1915 views/plugin_options_1.php:1549
+msgid "Click to select the flag"
+msgstr "Haga clic para seleccionar la bandera"
+
+#: views/plugin_options_2.php:1921
+msgid "Code"
+msgstr "Código"
+
+#: views/widgets/selector_form.php:53
+msgid "code"
+msgstr "código"
+
+#: views/plugin_options_2.php:1582 views/plugin_options_1.php:1267
+msgid "Codex"
+msgstr "Códice"
+
+#: views/plugin_options_2.php:891 views/plugin_options_1.php:651
+msgid ""
+"Collect currencies switching statistic for business purposes. No any private "
+"data of customers collects, only currency, country and time of switching. "
+"Also statistic for order currencies is there."
+msgstr ""
+"Recopile estadísticas de cambio de divisas con fines comerciales. No se "
+"recopilan datos privados de los clientes, solo moneda, país y hora de cambio."
+" También hay estadísticas para las monedas de los pedidos."
+
+#: views/shortcodes/woocs_converter.php:66
+msgid "Convert"
+msgstr "Convertir"
+
+#: views/widgets/rates_form.php:20 views/widgets/converter_form.php:20
+msgid "Count of digits after point"
+msgstr "Cuenta de dígitos después del punto"
+
+#: classes/statistic.php:279
+msgid "Countries popularity"
+msgstr "Popularidad de los países"
+
+#: views/fixed/product_coupon_data.php:11
+msgid "Coupon amount"
+msgstr "Cantidad del cupón"
+
+#: views/plugin_options_2.php:1739 views/plugin_options_1.php:1163
+msgid "Create"
+msgstr "Crear"
+
+#: classes/smart-designer.php:51
+msgid "Created!"
+msgstr "¡Creado!"
+
+#: classes/smart-designer.php:52
+msgid "Creating ..."
+msgstr "Creando ..."
+
+#: views/plugin_options_2.php:41 views/plugin_options_1.php:164
+msgid "Currencies"
+msgstr "Divisas"
+
+#: views/widgets/rates_form.php:11 views/widgets/converter_form.php:11
+msgid "Currencies excluding from view"
+msgstr "Divisas excluidas de la vista"
+
+#: classes/statistic.php:276
+msgid "Currencies popularity"
+msgstr "Popularidad de las monedas"
+
+#: views/plugin_options_2.php:378 views/plugin_options_1.php:73
+msgid "Currencies rate auto update by WordPress cron."
+msgstr ""
+"Actualización automática de la tasa de monedas mediante el cron de WordPress."
+
+#: classes/woocs_after_33.php:1285 classes/woocs_after_33.php:1499
+#: views/plugin_options_2.php:178 views/plugin_options_2.php:1487
+#: views/plugin_options_2.php:1920 views/plugin_options_1.php:307
+#: views/plugin_options_1.php:323 views/shortcodes/woocs_rates.php:60
+#: views/shortcodes/woocs_rates.php:68
+msgid "Currency"
+msgstr "Moneda"
+
+#: views/plugin_options_1.php:1117
+msgid "currency"
+msgstr "moneda"
+
+#: views/plugin_options_2.php:261 views/plugin_options_1.php:25
+msgid "Currency aggregator"
+msgstr "Agregador de moneda"
+
+#: views/plugin_options_2.php:271 views/plugin_options_1.php:26
+msgid ""
+"Currency aggregators. Note: If you know aggregator which not is represented "
+"in WOOCS write request on support please with suggestion to add it!"
+msgstr ""
+"Agregadores de divisas. Nota: Si conoce un agregador que no está "
+"representado en WOOCS, solicite por escrito el soporte por favor con una "
+"sugerencia para agregarlo."
+
+#: views/woocs_order_metabox.php:24
+msgid "Currency in which the customer paid."
+msgstr "Moneda en la que pagó el cliente."
+
+#: views/woocs_order_metabox.php:26
+msgid "Currency rate when the customer paid"
+msgstr "Tipo de cambio cuando el cliente pagó"
+
+#: views/plugin_options_2.php:300 views/plugin_options_1.php:44
+msgid "Currency storage"
+msgstr "Almacenamiento de moneda"
+
+#. Description of the plugin
+msgid ""
+"Currency Switcher for WooCommerce that allows to the visitors and customers "
+"on your woocommerce store site switch currencies and optionally apply "
+"selected currency on checkout"
+msgstr ""
+"Cambio de moneda para WooCommerce que permite a los visitantes y clientes en "
+"el sitio de su tienda woocommerce cambiar monedas y, opcionalmente, aplicar "
+"la moneda seleccionada al finalizar la compra."
+
+#: views/plugin_options_2.php:1925
+msgid "Currency symbols"
+msgstr "Símbolos de moneda"
+
+#: views/plugin_options_1.php:1352
+msgid "Currencylayer"
+msgstr "Jugador de dinero"
+
+#: classes/woocs_after_33.php:2222
+msgid "Current currency is:"
+msgstr "La moneda actual es:"
+
+#: views/plugin_options_2.php:386
+msgid "Custom currency symbols"
+msgstr "Símbolos de moneda"
+
+#: views/plugin_options_1.php:94
+msgid "Custom money signs"
+msgstr "Signos de dinero personalizados"
+
+#: views/plugin_options_2.php:404 views/plugin_options_1.php:103
+msgid "Custom price format"
+msgstr "Formato de precio personalizado"
+
+#: views/plugin_options_2.php:712
+msgid ""
+"Customer will pay using selected currency (Yes) or using default currency "
+"(No)."
+msgstr ""
+"El cliente pagará con la moneda seleccionada (Sí) o con la moneda "
+"predeterminada (No)."
+
+#: views/plugin_options_1.php:551
+msgid ""
+"Customer will pay with selected currency (Yes) or with default currency (No)."
+msgstr ""
+"El cliente pagará con la moneda seleccionada (Sí) o con la moneda "
+"predeterminada (No)."
+
+#: views/plugin_options_2.php:189
+msgid "D"
+msgstr ""
+
+#: views/plugin_options_2.php:363 views/plugin_options_1.php:82
+msgid "daily"
+msgstr "diario"
+
+#: views/plugin_options_2.php:133 views/plugin_options_1.php:258
+msgid "ddslick drop-down"
+msgstr "menú desplegable ddslick"
+
+#: views/plugin_options_2.php:182 views/plugin_options_2.php:1976
+#: views/plugin_options_1.php:310 views/plugin_options_1.php:326
+msgid "Decimal"
+msgstr "Decimal"
+
+#: views/plugin_options_2.php:1978 views/plugin_options_1.php:1447
+msgid "Decimals"
+msgstr "Decimales"
+
+#: classes/smart-designer.php:81 views/plugin_options_2.php:1763
+#: views/plugin_options_1.php:1184
+msgid "delete"
+msgstr "eliminar"
+
+#: views/plugin_options_2.php:1427 views/plugin_options_1.php:1052
+msgid "Delete profile"
+msgstr "Borrar perfil"
+
+#: classes/smart-designer.php:80
+msgid "Deleted!"
+msgstr "¡Eliminado!"
+
+#: classes/smart-designer.php:79
+msgid "Deleting ..."
+msgstr "Eliminando ..."
+
+#: views/plugin_options_2.php:188 views/plugin_options_2.php:250
+#: views/plugin_options_2.php:268 views/plugin_options_2.php:286
+#: views/plugin_options_2.php:307 views/plugin_options_2.php:325
+#: views/plugin_options_2.php:343 views/plugin_options_2.php:375
+#: views/plugin_options_2.php:393 views/plugin_options_2.php:411
+#: views/plugin_options_2.php:429 views/plugin_options_2.php:447
+#: views/plugin_options_2.php:465 views/plugin_options_2.php:483
+#: views/plugin_options_2.php:501 views/plugin_options_2.php:519
+#: views/plugin_options_2.php:537 views/plugin_options_2.php:557
+#: views/plugin_options_2.php:575 views/plugin_options_2.php:593
+#: views/plugin_options_2.php:611 views/plugin_options_2.php:629
+#: views/plugin_options_2.php:662 views/plugin_options_2.php:684
+#: views/plugin_options_2.php:709 views/plugin_options_2.php:742
+#: views/plugin_options_2.php:760 views/plugin_options_2.php:786
+#: views/plugin_options_2.php:804 views/plugin_options_2.php:859
+#: views/plugin_options_2.php:888 views/plugin_options_2.php:906
+#: views/plugin_options_2.php:922 views/plugin_options_2.php:970
+#: views/plugin_options_2.php:1005 views/plugin_options_2.php:1034
+#: views/plugin_options_2.php:1055 views/plugin_options_2.php:1075
+#: views/plugin_options_2.php:1096 views/plugin_options_2.php:1117
+#: views/plugin_options_2.php:1138 views/plugin_options_2.php:1169
+#: views/plugin_options_2.php:1187 views/plugin_options_2.php:1205
+#: views/plugin_options_2.php:1233 views/plugin_options_2.php:1788
+#: views/plugin_options_2.php:2049 views/plugin_options_1.php:315
+#: views/plugin_options_1.php:331 views/plugin_options_1.php:1206
+msgid "Description"
+msgstr "Descripción"
+
+#: views/plugin_options_2.php:2050 views/plugin_options_1.php:1537
+#: views/widgets/selector_form.php:54
+msgid "description"
+msgstr "descripción"
+
+#: classes/smart-designer.php:70
+msgid "Description color"
+msgstr "Descripción color"
+
+#: classes/smart-designer.php:71
+msgid "Description font"
+msgstr "Fuente de descripción"
+
+#: classes/smart-designer.php:57
+msgid "Description font size"
+msgstr "Tamaño de fuente de la descripción"
+
+#: views/plugin_options_2.php:91 views/plugin_options_1.php:213
+msgid "Designer"
+msgstr "Diseñador"
+
+#: views/plugin_options_2.php:646 views/plugin_options_1.php:520
+msgid "Direct use"
+msgstr "Uso directo"
+
+#: views/plugin_options_2.php:640 views/plugin_options_1.php:514
+msgid "Disable on pages"
+msgstr "Desactivar en páginas"
+
+#: views/plugin_options_2.php:665 views/plugin_options_1.php:515
+msgid ""
+"Disabling or Enabling WOOCS on the described pages only. Use comma and pages "
+"slugs. Example: blog,account"
+msgstr ""
+"Deshabilitar o habilitar WOOCS solo en las páginas descritas. Utilice comas "
+"y slugs de páginas. Ejemplo: blog, cuenta"
+
+#: views/plugin_options_2.php:1058 views/plugin_options_1.php:762
+msgid ""
+"Distance from the top of the screen to the switcher html block. You can set "
+"in px or in %. Example 1: 100px. Example 2: 10%."
+msgstr ""
+"Distancia desde la parte superior de la pantalla hasta el bloque html del "
+"conmutador. Puede establecer en px o en%. Ejemplo 1: 100px. Ejemplo 2: 10%."
+
+#: classes/woocs_after_33.php:966
+msgid "Documentation"
+msgstr "Documentación"
+
+#: views/plugin_options_2.php:1901 views/plugin_options_2.php:1902
+msgid "Drag and Drop"
+msgstr "Arrastrar y soltar"
+
+#: views/plugin_options_1.php:1554
+msgid "drag and drop"
+msgstr "arrastrar y soltar"
+
+#: views/widgets/selector_form.php:50
+msgid "Drop-down options text type"
+msgstr "Tipo de texto de opciones desplegables"
+
+#: classes/smart-designer.php:82 views/plugin_options_2.php:1763
+#: views/plugin_options_1.php:1184
+msgid "edit"
+msgstr "editar"
+
+#: views/plugin_options_2.php:1426 views/plugin_options_1.php:1051
+msgid "Edit profile"
+msgstr "Editar perfil"
+
+#: views/plugin_options_2.php:512 views/plugin_options_1.php:426
+msgid "Email notice about \"Rate auto update\" results"
+msgstr ""
+"Aviso por correo electrónico sobre los resultados de \\ \"Calificar "
+"actualización automática \""
+
+#: views/plugin_options_2.php:957
+msgid "Enable / Disable"
+msgstr "Habilitar deshabilitar"
+
+#: views/plugin_options_2.php:973
+msgid "Enable / Disable the side currency switcher on your site"
+msgstr "Habilite / deshabilite el conmutador de moneda lateral en su sitio"
+
+#: views/plugin_options_1.php:699
+msgid "Enable/Disable"
+msgstr "Habilitar deshabilitar"
+
+#: views/plugin_options_1.php:700
+msgid "Enable/Disable the side currency switcher on your page"
+msgstr "Habilite / deshabilite el conmutador de moneda lateral en su página"
+
+#: views/shortcodes/woocs_converter.php:25
+msgid "enter amount"
+msgstr "ingrese el monto"
+
+#: classes/woocs_after_33.php:1498
+msgid "Enter by hands or use this helper"
+msgstr "Ingrese con las manos o use este ayudante"
+
+#: views/plugin_options_2.php:1000 views/plugin_options_1.php:734
+msgid "enter roll width"
+msgstr "ingrese el ancho del rollo"
+
+#: classes/woocs_after_33.php:182
+msgid "EU countries"
+msgstr "países de la UE"
+
+#: views/widgets/selector_form.php:13
+msgid "Examples: 300px,100%,auto"
+msgstr "Ejemplos: 300 px, 100%, automático"
+
+#: views/widgets/rates_form.php:13 views/widgets/converter_form.php:13
+msgid "Examples: EUR,GBP,UAH"
+msgstr "Ejemplos: EUR, GBP, UAH"
+
+#: views/plugin_options_2.php:1965
+msgid "Exchange rate"
+msgstr "Tipo de cambio"
+
+#: views/plugin_options_1.php:1488
+msgid "exchange rate"
+msgstr "tipo de cambio"
+
+#: views/plugin_options_2.php:1824 views/plugin_options_1.php:1244
+msgid "Exit without save"
+msgstr "Salir sin guardar"
+
+#: views/plugin_options_1.php:1406
+msgid "Exmpl.: USD,EUR"
+msgstr "Ejemplo: USD, EUR"
+
+#: views/plugin_options_2.php:1570 views/plugin_options_1.php:1265
+msgid "FAQ"
+msgstr "Preguntas Frecuentes"
+
+#: views/plugin_options_2.php:1670
+msgid ""
+"Find and use free flags to your taste according to your business preferences"
+msgstr ""
+"Encuentre y use banderas gratuitas a su gusto de acuerdo con sus "
+"preferencias comerciales"
+
+#: classes/fixed/fixed_shipping.php:28
+#, php-format
+msgid "Fixed cost %s"
+msgstr "Costes fijos %s"
+
+#: views/plugin_options_1.php:1350
+msgid "Fixer"
+msgstr "Fijador"
+
+#: views/plugin_options_2.php:177 views/plugin_options_2.php:1789
+#: views/plugin_options_2.php:1907 views/plugin_options_2.php:1916
+#: views/plugin_options_1.php:316 views/plugin_options_1.php:332
+#: views/plugin_options_1.php:1207 views/plugin_options_1.php:1549
+#: views/shortcodes/woocs_rates.php:59 views/shortcodes/woocs_rates.php:67
+msgid "Flag"
+msgstr "Destacar"
+
+#: classes/smart-designer.php:67
+msgid "Flag height"
+msgstr "Altura de la bandera"
+
+#: classes/smart-designer.php:66 views/widgets/selector_form.php:32
+msgid "Flag position"
+msgstr "Posición de la bandera"
+
+#: classes/smart-designer.php:68
+msgid "Flag vertical position"
+msgstr "Posición vertical de la bandera"
+
+#: views/plugin_options_2.php:131 views/plugin_options_1.php:256
+msgid "Flags (as images)"
+msgstr "Banderas (como imágenes)"
+
+#: views/plugin_options_2.php:614 views/plugin_options_1.php:494
+#| msgid "For ajax redraw."
+msgid "For ajax  redraw."
+msgstr "Para redibujar ajax."
+
+#: views/plugin_options_2.php:1521 views/plugin_options_1.php:1142
+msgid ""
+"For currencies - aggregated data about count of countries which users "
+"selected currencies on the site front. For orders - count of orders made "
+"from countries, detected by selected country in the billing address."
+msgstr ""
+"Para monedas: datos agregados sobre el recuento de países cuyas monedas los "
+"usuarios seleccionaron en el frente del sitio. Para pedidos: recuento de "
+"pedidos realizados desde países, detectados por el país seleccionado en la "
+"dirección de facturación."
+
+#: views/plugin_options_2.php:1514 views/plugin_options_1.php:1141
+msgid ""
+"For currencies - aggregated data about selected currencies on the site front."
+" For orders - count of orders made in the selected currencies."
+msgstr ""
+"Para monedas: datos agregados sobre monedas seleccionadas en el frente del "
+"sitio. Para pedidos: recuento de pedidos realizados en las monedas "
+"seleccionadas."
+
+#: views/widgets/selector_form.php:44
+msgid "For ddslick script only!"
+msgstr "¡Solo para el script ddslick!"
+
+#: views/plugin_options_1.php:591
+msgid ""
+"Force the customers to pay on checkout page by rules defined in 'GeoIP "
+"rules' tab. ATTENTION: this feature has logical sense if you enabled 'Enable "
+"fixed pricing' and also installed fixed prices rules in the products for "
+"different currencies!"
+msgstr ""
+"Obligue a los clientes a pagar en la página de pago según las reglas "
+"definidas en la pestaña 'Reglas de GeoIP'. ATENCIÓN : esta característica "
+"tiene sentido si habilitó 'Habilitar precios fijos' y también instaló reglas "
+"de precios fijos en los productos para diferentes monedas."
+
+#: views/plugin_options_2.php:763
+msgid ""
+"Forces the customers to pay on checkout page by the rules defined in [GeoIP "
+"rules] tab. ATTENTION: this feature has logical sense if you enabled [Enable "
+"fixed pricing] and also set fixed prices rules to the products in different "
+"currencies!"
+msgstr ""
+"Obliga a los clientes a pagar en la página de pago según las reglas "
+"definidas en la pestaña [Reglas de GeoIP]. ATENCIÓN: esta función tiene "
+"sentido si habilitó [Habilitar precios fijos] y también estableció reglas de "
+"precios fijos para los productos en diferentes monedas."
+
+#: views/plugin_options_2.php:1595
+msgid "Found incompatibility? We can help!"
+msgstr "¿Encontraste incompatibilidad? ¡Podemos ayudar!"
+
+#: views/plugin_options_2.php:1668 views/plugin_options_1.php:1263
+msgid "Free flags images"
+msgstr "Imágenes de free flags"
+
+#: views/plugin_options_2.php:1504 views/plugin_options_1.php:1134
+msgid "from"
+msgstr "desde"
+
+#: views/plugin_options_2.php:1858 views/plugin_options_1.php:1366
+msgid "full version of the plugin"
+msgstr "versión completa del complemento"
+
+#: views/plugin_options_2.php:1786 views/plugin_options_1.php:1204
+msgid "General"
+msgstr "General"
+
+#: views/plugin_options_2.php:74 views/plugin_options_1.php:194
+msgid "GeoIP"
+msgstr "GeoIP"
+
+#: views/plugin_options_2.php:1370 views/plugin_options_1.php:1009
+#: views/fixed/product_price_data.php:69
+msgid "GeoIP profiles"
+msgstr "Perfiles GeoIP"
+
+#: views/plugin_options_2.php:1322 views/plugin_options_1.php:961
+msgid "GeoIP rules"
+msgstr "Reglas de GeoIP"
+
+#: views/plugin_options_1.php:966
+msgid ""
+"GeoIP works from v.2.3 of the WooCommerce plugin and no with minor versions "
+"of WooCommerce!!"
+msgstr ""
+"GeoIP funciona desde la v.2.3 del complemento WooCommerce y no con versiones "
+"menores de WooCommerce."
+
+#: views/plugin_options_2.php:289 views/plugin_options_1.php:1348
+msgid "Get free API keys:"
+msgstr "Obtenga claves API gratuitas:"
+
+#: classes/woocs_after_33.php:5588
+msgid "Give Feedback"
+msgstr "Dar opinion"
+
+#: views/plugin_options_2.php:825 views/plugin_options_1.php:628
+msgid "Gives ability to set different prices for each user role"
+msgstr ""
+"Ofrece la posibilidad de establecer diferentes precios para cada rol de "
+"usuario."
+
+#: views/fixed/product_user_role_data.php:61
+msgid ""
+"Gives ability to set different prices for each user role. Native WooCommerce "
+"price filter is blind for this data!"
+msgstr ""
+"Da la posibilidad de establecer diferentes precios para cada rol de usuario. "
+"¡El filtro de precios nativo de WooCommerce es ciego para estos datos!"
+
+#: classes/woocs_after_33.php:971
+msgid "Go Pro!"
+msgstr "¡Hazte Pro!"
+
+#: views/plugin_options_2.php:106 views/plugin_options_1.php:230
+msgid "Help"
+msgstr "Ayuda"
+
+#: classes/woocs_after_33.php:743
+msgid "here"
+msgstr "aquí"
+
+#: views/plugin_options_2.php:1377 views/plugin_options_1.php:1011
+msgid ""
+"Here you can create set of countries profiles to apply it then in the "
+"products by your business logic. %s!"
+msgstr ""
+"Aquí puede crear un conjunto de perfiles de países para aplicarlo luego en "
+"los productos según su lógica comercial. %s!"
+
+#: views/fixed/product_coupon_data.php:42
+msgid ""
+"Here you can set FIXED amount for the coupon for any currency you want. In "
+"the case of empty amount field recounting by rate will work!"
+msgstr ""
+"Aquí puede establecer una cantidad FIJA para el cupón para cualquier moneda "
+"que desee. En el caso de un campo de cantidad vacío, ¡el recuento por tasa "
+"funcionará!"
+
+#: views/fixed/product_coupon_restriction_data.php:47
+msgid ""
+"Here you can set FIXED amount for the coupon for any the currency you want. "
+"In the case of empty amount field - will work recounting by rate!"
+msgstr ""
+"Aquí puede establecer la cantidad FIJA del cupón para la moneda que desee. "
+"En el caso de un campo de cantidad vacío, ¡funcionará contando por tasa!"
+
+#: views/fixed/product_price_data.php:116
+msgid ""
+"Here you can set FIXED price for the product for any the currency you want. "
+"In the case of empty amount field - will work recounting by rate!"
+msgstr ""
+"Aquí puede establecer un precio FIJO para el producto en la moneda que desee."
+" En el caso de un campo de cantidad vacío, ¡funcionará contando por tasa!"
+
+#: views/fixed/product_price_data.php:152
+#| msgid ""
+#| "Here you can set prices in the basic currency for different countries, "
+#| "and recount will be done relatively of this values. ATTENTION: fixed "
+#| "price for currencies has higher priority!"
+msgid ""
+"Here you can set prices in the basic currency for different countries, and "
+"recount will be done relatively of this values. ATTENTION: fixed price has "
+"higher priority!"
+msgstr ""
+"Aquí puede establecer precios en la moneda básica para diferentes países, y "
+"el recuento se realizará en relación con estos valores. ATENCIÓN: ¡el precio "
+"fijo para las divisas tiene mayor prioridad!"
+
+#: classes/woocs_after_33.php:5571
+#, php-format
+msgid "Hi! Are you enjoying using %s?"
+msgstr "¡Hola! ¿Estás disfrutando usando %s?"
+
+#: views/plugin_options_2.php:2032 views/plugin_options_1.php:1498
+msgid "Hide cents"
+msgstr "Ocultar centavos"
+
+#: views/plugin_options_2.php:1157 views/plugin_options_1.php:868
+msgid "Hide on mobile devices"
+msgstr "Ocultar en dispositivos móviles"
+
+#: views/plugin_options_2.php:1128 views/plugin_options_1.php:848
+msgid "Hide on the pages"
+msgstr "Ocultar en las páginas"
+
+#: views/plugin_options_2.php:909
+msgid ""
+"Hide or show payments systems on checkout page depending of the current "
+"currency"
+msgstr ""
+"Ocultar o mostrar los sistemas de pago en la página de pago según la moneda "
+"actual"
+
+#: views/plugin_options_2.php:530 views/plugin_options_1.php:437
+msgid "Hide switcher on checkout page"
+msgstr "Ocultar conmutador en la página de pago"
+
+#: views/plugin_options_1.php:438
+msgid ""
+"Hide switcher on checkout page for any of your reason. Better restrike for "
+"users change currency on checkout page in multiple mode."
+msgstr ""
+"Oculte el conmutador en la página de pago por cualquiera de sus motivos. "
+"Mejor reencendido para que los usuarios cambien la moneda en la página de "
+"pago en modo múltiple."
+
+#: views/plugin_options_2.php:540
+msgid "Hide switcher on the checkout page, if it is necessary."
+msgstr "Oculte el conmutador en la página de pago, si es necesario."
+
+#: views/plugin_options_1.php:449
+msgid ""
+"Hide/Show payments systems on checkout page depending on the current currency"
+msgstr ""
+"Ocultar / Mostrar sistemas de pago en la página de pago según la moneda "
+"actual"
+
+#: views/plugin_options_2.php:1845 views/plugin_options_1.php:1347
+msgid "Hint"
+msgstr "Pista"
+
+#: views/plugin_options_2.php:361 views/plugin_options_1.php:80
+msgid "hourly"
+msgstr "cada hora"
+
+#: views/plugin_options_2.php:1198 views/plugin_options_1.php:789
+msgid "Hover color"
+msgstr "Color de libración"
+
+#: views/plugin_options_2.php:1086 views/plugin_options_1.php:824
+msgid "Hover field(s)"
+msgstr "Campo (s) de desplazamiento"
+
+#: views/plugin_options_2.php:142 views/plugin_options_1.php:267
+msgid ""
+"How to display currency switcher (by default) on the site front. (NEW) Make "
+"your attention on skins with numbers - you can use them on the same page "
+"with different designs in shortcode [woocs] described in its attribute style "
+"and style number (see Codex page in Info Help tab)!"
+msgstr ""
+"Cómo mostrar el conmutador de moneda (por defecto) en el frente del sitio. "
+"(NUEVO) Preste atención a las máscaras con números: puede usarlas en la "
+"misma página con diferentes diseños en el código corto [woocs] descrito en "
+"su estilo de atributo y número de estilo (consulte la página del Codex en la "
+"pestaña Ayuda de información)."
+
+#: views/plugin_options_2.php:1705
+msgid "How to insert currency switcher into site menu?"
+msgstr "¿Cómo insertar el conmutador de divisas en el menú del sitio?"
+
+#. URI of the plugin
+msgid "https://currency-switcher.com/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pluginus.net/"
+msgstr ""
+
+#: classes/woocs_after_33.php:5581
+msgid "I already did"
+msgstr "Ya lo hice"
+
+#: views/plugin_options_2.php:586 views/plugin_options_1.php:483
+msgid "I am using cache plugin on my site"
+msgstr "Estoy usando un complemento de caché en mi sitio"
+
+#: views/plugin_options_2.php:1703 views/plugin_options_1.php:1289
+msgid "I cant add flags! What to do?"
+msgstr "¡No puedo agregar banderas! ¿Qué hacer?"
+
+#: views/plugin_options_2.php:1537 views/plugin_options_1.php:1107
+msgid ""
+"If in tab Options activated option I am using cache plugin on my site - to "
+"avoid double data for statistical data registration in tab Options activate "
+"option No GET data in link!"
+msgstr ""
+"Si en la pestaña Opciones se activó la opción, estoy usando el complemento "
+"de caché en mi sitio, para evitar el doble de datos para el registro de "
+"datos estadísticos en la pestaña Opciones, activar la opción ¡No obtener "
+"datos en el enlace!"
+
+#: views/plugin_options_2.php:1846 views/plugin_options_1.php:1273
+#: views/plugin_options_1.php:1355
+msgid ""
+"If WOOCS settings panel looks incorrect or you have JavaScript errors (after "
+"update) - firstly"
+msgstr ""
+"Si el panel de configuración de WOOCS parece incorrecto o tiene errores de "
+"JavaScript (después de la actualización), en primer lugar"
+
+#: views/plugin_options_1.php:1261
+msgid ""
+"If you have an idea about css+js template - send request on support please "
+"where describe your vision."
+msgstr ""
+"Si tiene una idea sobre la plantilla css + js, envíe una solicitud al "
+"soporte, por favor, describa su visión."
+
+#: views/plugin_options_2.php:1531 views/plugin_options_1.php:1105
+msgid ""
+"If you have ideas about scenarios of the statistic please share and discuss "
+"them on %s"
+msgstr ""
+"Si tiene ideas sobre los escenarios de la estadística, compártalas y "
+"discútalas en %s."
+
+#: views/plugin_options_2.php:1559
+msgid ""
+"If you have questions about plugin functionality or found bug write us please"
+msgstr ""
+"Si tiene preguntas sobre la funcionalidad del complemento o encuentra un "
+"error, escríbanos por favor"
+
+#: views/plugin_options_2.php:1845 views/plugin_options_1.php:1347
+msgid ""
+"If you want let your customers pay in their selected currency in tab "
+"Advanced set the option Is multiple allowed to Yes."
+msgstr ""
+"Si desea que sus clientes paguen en la moneda seleccionada en la pestaña "
+"Avanzado, configure la opción Se permiten múltiples en Sí."
+
+#: views/plugin_options_2.php:310
+msgid ""
+"In some servers there are troubles with sessions, and after currency "
+"selecting it reset to welcome currency or geo ip currency. In such cases use "
+"transient storage. If it is possible on your hosting use Memcached or Redis!"
+msgstr ""
+"En algunos servidores hay problemas con las sesiones y, después de "
+"seleccionar la moneda, se restablece para dar la bienvenida a la moneda o la "
+"moneda de geo ip. En tales casos, utilice almacenamiento transitorio. Si es "
+"posible en su alojamiento, utilice Memcached o Redis."
+
+#: views/plugin_options_1.php:45
+msgid ""
+"In some servers there is troubles with sessions, and after currency "
+"selecting its reset to welcome currency or geo ip currency. In such case use "
+"transient. If it is possible on your hosting use Memcached or Redis!"
+msgstr ""
+"En algunos servidores hay problemas con las sesiones y, después de "
+"seleccionar la moneda, se restablece para dar la bienvenida a la moneda o la "
+"moneda de geo ip. En tal caso, utilice transitorio. Si es posible en su "
+"alojamiento, utilice Memcached o Redis."
+
+#: views/plugin_options_2.php:1852 views/plugin_options_1.php:1360
+msgid ""
+"In the free version of the plugin %s you can operate with 2 ANY currencies "
+"only%s! If you want to use more currencies %s you can make upgrade to the "
+"premium version%s of the plugin"
+msgstr ""
+"En la versión gratuita del complemento %s, puede operar solo con 2 CUALQUIER "
+"moneda %s! Si desea utilizar más monedas %s, puede actualizar a la versión "
+"premium %s del complemento"
+
+#: views/plugin_options_2.php:1736 views/plugin_options_1.php:1160
+msgid ""
+"In this section you can create your own view of currency drop-down switcher"
+msgstr ""
+"En esta sección puede crear su propia vista del conmutador desplegable de "
+"divisas."
+
+#: views/plugin_options_2.php:253
+msgid ""
+"In which currency to show prices for first visit of your customer on your "
+"site. Do not do it by private currency to avoid logic mess!"
+msgstr ""
+"En qué moneda mostrar los precios para la primera visita de su cliente a su "
+"sitio. ¡No lo hagas con moneda privada para evitar un lío de lógica!"
+
+#: views/plugin_options_1.php:16
+msgid ""
+"In wich currency show prices for first visit of your customer on your site. "
+"Do not do it private to avoid logic mess!"
+msgstr ""
+"En qué moneda se muestran los precios de la primera visita de su cliente a "
+"su sitio. ¡No lo hagas en privado para evitar problemas de lógica!"
+
+#: views/plugin_options_2.php:779 views/plugin_options_1.php:608
+msgid "Individual fixed amount for coupon"
+msgstr "Importe fijo individual para cupón"
+
+#: views/plugin_options_2.php:797 views/plugin_options_1.php:618
+msgid "Individual fixed amount for shipping"
+msgstr "Importe fijo individual para envío"
+
+#: views/plugin_options_2.php:720 views/plugin_options_1.php:573
+msgid "Individual fixed prices rules for each product"
+msgstr "Reglas de precios fijos individuales para cada producto"
+
+#: views/plugin_options_2.php:835 views/plugin_options_1.php:637
+msgid "Individual GeoIP rules for each product"
+msgstr "Reglas GeoIP individuales para cada producto"
+
+#: views/plugin_options_2.php:815 views/plugin_options_1.php:627
+msgid "Individual prices based on user role"
+msgstr "Precios individuales basados ​​en el rol del usuario"
+
+#: views/plugin_options_2.php:1967 views/plugin_options_1.php:1488
+msgid "interest"
+msgstr "intereses"
+
+#: classes/woocs_after_33.php:5507
+msgid "is added!"
+msgstr "¡está agregado!"
+
+#: views/plugin_options_2.php:1246 views/plugin_options_1.php:899
+msgid "Is hidden"
+msgstr "Está oculto"
+
+#: views/plugin_options_2.php:691 views/plugin_options_2.php:702
+#: views/plugin_options_1.php:550 views/plugin_options_1.php:561
+msgid "Is multiple allowed"
+msgstr "Es múltiple permitido"
+
+#: views/plugin_options_2.php:1247 views/plugin_options_1.php:900
+msgid "Is shown"
+msgstr "Se muestra"
+
+#: classes/woocs_after_33.php:5503
+msgid "is updated!"
+msgstr "está actualizado!"
+
+#: views/plugin_options_2.php:1594
+msgid "Labs"
+msgstr ""
+
+#: classes/woocs_after_33.php:5569
+msgid "Later"
+msgstr "Mas tarde"
+
+#: views/plugin_options_2.php:1022 views/plugin_options_1.php:747
+msgid "Left"
+msgstr "Unidades"
+
+#: views/widgets/selector_form.php:36
+msgid "left"
+msgstr "izquierda"
+
+#: views/fixed/product_price_data.php:84
+msgid "Load countries from profile"
+msgstr "Cargar países desde el perfil"
+
+#: classes/smart-designer.php:46
+msgid "Loaded!"
+msgstr "¡Cargado!"
+
+#: classes/woocs_after_33.php:1494
+msgid "Loading"
+msgstr "carga"
+
+#: classes/woocs_after_33.php:1250
+msgid "loading"
+msgstr "carga"
+
+#: classes/smart-designer.php:45
+msgid "Loading ..."
+msgstr "Cargando ..."
+
+#: views/plugin_options_2.php:1180 views/plugin_options_1.php:779
+msgid "Main color"
+msgstr "Principio de color"
+
+#: views/plugin_options_2.php:1190 views/plugin_options_1.php:780
+msgid "Main color which coloring the switcher elements"
+msgstr "Color principal que colorea los elementos del conmutador."
+
+#: classes/smart-designer.php:77
+msgid "Max open height"
+msgstr "Altura máxima abierta"
+
+#: views/fixed/product_coupon_restriction_data.php:15
+msgid "Maximum spend"
+msgstr "Gasto máximo"
+
+#: classes/fixed/fixed_shipping_free.php:28
+#, php-format
+msgid "Minimum order amount in %s"
+msgstr "Importe mínimo del pedido en %s"
+
+#: views/fixed/product_coupon_restriction_data.php:11
+msgid "Minimum spend"
+msgstr "Gasto mínimo"
+
+#: views/plugin_options_2.php:1803 views/plugin_options_1.php:1223
+msgid "Missing options? Describe your proposal please on the support forum."
+msgstr ""
+"¿Faltan opciones? Describe tu propuesta por favor en el foro de soporte."
+
+#: views/plugin_options_1.php:139
+msgid "Modern WOOCS admin theme"
+msgstr "Tema de administración de WOOCS moderno"
+
+#: views/plugin_options_1.php:1410
+msgid "Money signs"
+msgstr "Signos de dinero"
+
+#: views/plugin_options_2.php:365 views/plugin_options_1.php:84
+msgid "monthly"
+msgstr "mensual"
+
+#: views/plugin_options_2.php:1710 views/plugin_options_1.php:1301
+msgid "More power for your shop"
+msgstr "Más potencia para tu tienda"
+
+#: views/plugin_options_2.php:175
+msgid "Move"
+msgstr "Moverse"
+
+#: views/plugin_options_1.php:1554
+msgid "move"
+msgstr "movimiento"
+
+#: classes/woocs_after_33.php:1493
+msgid ""
+"Native WooCommerce price filter does not see data generated by this feature."
+msgstr ""
+"El filtro de precios nativo de WooCommerce no ve los datos generados por "
+"esta función."
+
+#: views/plugin_options_2.php:925 views/plugin_options_1.php:679
+msgid ""
+"Native WooCommerce price filter is blind for all data generated by marked "
+"features"
+msgstr ""
+"El filtro de precios nativo de WooCommerce es ciego para todos los datos "
+"generados por las características marcadas"
+
+#: classes/woocs_after_33.php:5491
+msgid "New profile"
+msgstr "Nuevo perfil"
+
+#: views/plugin_options_2.php:697 views/plugin_options_2.php:876
+#: views/plugin_options_1.php:556 views/plugin_options_1.php:656
+msgid "No"
+msgstr "No"
+
+#: views/plugin_options_2.php:360 views/plugin_options_1.php:79
+msgid "no auto update"
+msgstr "sin actualización automática"
+
+#: classes/woocs_after_33.php:2510 classes/woocs_after_33.php:2548
+#: classes/woocs_after_33.php:2561 classes/woocs_after_33.php:2567
+#: classes/woocs_after_33.php:2587 classes/woocs_after_33.php:2608
+#: classes/woocs_after_33.php:2623 classes/woocs_after_33.php:2629
+#: classes/woocs_after_33.php:2648 classes/woocs_after_33.php:2665
+#: classes/woocs_after_33.php:2700 classes/woocs_after_33.php:2717
+#: classes/woocs_after_33.php:2723 classes/woocs_after_33.php:2757
+#: classes/woocs_after_33.php:2770 classes/woocs_after_33.php:2776
+#: classes/woocs_after_33.php:2803 classes/woocs_after_33.php:2809
+#: classes/woocs_after_33.php:2834 classes/woocs_after_33.php:2860
+#: classes/woocs_after_33.php:2886 classes/woocs_after_33.php:2904
+#: classes/woocs_after_33.php:2908 classes/woocs_after_33.php:2927
+#: classes/woocs_after_33.php:2942 classes/woocs_after_33.php:2957
+#: classes/woocs_after_33.php:2974 classes/woocs_after_33.php:2979
+#: classes/woocs_after_33.php:3005 classes/woocs_after_33.php:3016
+#: classes/woocs_after_33.php:3037
+msgid "no data for %s"
+msgstr "no hay datos para %s"
+
+#: views/plugin_options_2.php:458 views/plugin_options_1.php:394
+msgid "No GET data in link"
+msgstr "No hay datos GET en el enlace"
+
+#: classes/woocs_after_33.php:5473
+msgid "No such profile"
+msgstr "No existe tal perfil"
+
+#: classes/woocs_after_33.php:5589
+msgid "No thanks"
+msgstr "No, gracias"
+
+#: classes/woocs_after_33.php:5580
+#| msgid "Nope, maybe later!"
+msgid "Nope, maybe later"
+msgstr "¡No, tal vez más tarde!"
+
+#: views/woocs_order_metabox.php:37
+msgid ""
+"Not possible to recalculate the order - because current base currency is %s, "
+"and order base currency is %s!"
+msgstr ""
+"No es posible volver a calcular el pedido, porque la moneda base actual es "
+"%s y la moneda base del pedido es %s."
+
+#: classes/woocs_after_33.php:5572
+msgid "Not really..."
+msgstr "Realmente no..."
+
+#: views/plugin_options_2.php:127 views/plugin_options_1.php:252
+msgid "Not styled drop-down"
+msgstr "Menú desplegable sin estilo"
+
+#: views/plugin_options_2.php:1536 views/plugin_options_2.php:1846
+#: views/plugin_options_1.php:1107 views/plugin_options_1.php:1348
+#: views/plugin_options_1.php:1355
+msgid "Note"
+msgstr "<b> Nota </b>"
+
+#: views/plugin_options_2.php:917 views/plugin_options_1.php:674
+msgid "Notes*"
+msgstr "Notas *"
+
+#: views/plugin_options_2.php:23
+msgid "Obsolete WOOCS admin panel"
+msgstr "Panel de administración de WOOCS obsoleto"
+
+#: classes/woocs_after_33.php:5579
+#| msgid "Ok, you deserve it"
+msgid "Okay, you deserve it"
+msgstr "Ok, te lo mereces"
+
+#: views/plugin_options_1.php:1351
+msgid "Open exchange rates"
+msgstr "Tipos de cambio abiertos"
+
+#: views/plugin_options_2.php:242 views/plugin_options_2.php:260
+#: views/plugin_options_2.php:278 views/plugin_options_2.php:299
+#: views/plugin_options_2.php:317 views/plugin_options_2.php:335
+#: views/plugin_options_2.php:353 views/plugin_options_2.php:385
+#: views/plugin_options_2.php:403 views/plugin_options_2.php:421
+#: views/plugin_options_2.php:439 views/plugin_options_2.php:457
+#: views/plugin_options_2.php:475 views/plugin_options_2.php:493
+#: views/plugin_options_2.php:511 views/plugin_options_2.php:529
+#: views/plugin_options_2.php:549 views/plugin_options_2.php:567
+#: views/plugin_options_2.php:585 views/plugin_options_2.php:603
+#: views/plugin_options_2.php:621 views/plugin_options_2.php:639
+#: views/plugin_options_2.php:682 views/plugin_options_2.php:690
+#: views/plugin_options_2.php:719 views/plugin_options_2.php:752
+#: views/plugin_options_2.php:778 views/plugin_options_2.php:796
+#: views/plugin_options_2.php:814 views/plugin_options_2.php:834
+#: views/plugin_options_2.php:869 views/plugin_options_2.php:898
+#: views/plugin_options_2.php:916 views/plugin_options_2.php:956
+#: views/plugin_options_2.php:980 views/plugin_options_2.php:1015
+#: views/plugin_options_2.php:1044 views/plugin_options_2.php:1064
+#: views/plugin_options_2.php:1085 views/plugin_options_2.php:1106
+#: views/plugin_options_2.php:1127 views/plugin_options_2.php:1148
+#: views/plugin_options_2.php:1179 views/plugin_options_2.php:1197
+#: views/plugin_options_2.php:1231
+msgid "Option"
+msgstr "Opción"
+
+#: views/plugin_options_2.php:47 views/plugin_options_1.php:170
+msgid "Options"
+msgstr "Opciones"
+
+#: classes/smart-designer.php:74
+msgid "Options divider color"
+msgstr "Color del divisor"
+
+#: classes/smart-designer.php:75
+msgid "Options divider size"
+msgstr "Tamaño del divisor"
+
+#: views/woocs_order_metabox.php:16
+msgid "Order currency"
+msgstr "Moneda de la orden"
+
+#: views/woocs_order_metabox.php:26
+msgid "Order currency rate"
+msgstr "Tipo de cambio de orden"
+
+#: views/plugin_options_2.php:1488
+msgid "Orders (completed)"
+msgstr "Pedidos (completados)"
+
+#: views/plugin_options_1.php:1118
+msgid "orders (completed)"
+msgstr "pedidos (completados)"
+
+#: views/plugin_options_2.php:1943 views/plugin_options_1.php:1429
+msgid "P $ - right space"
+msgstr "P $ - espacio derecho"
+
+#: views/plugin_options_2.php:1939 views/plugin_options_1.php:1425
+msgid "P$ - right"
+msgstr "P $ - derecha"
+
+#: views/plugin_options_2.php:63 views/plugin_options_1.php:183
+msgid "Payments"
+msgstr "Pagos"
+
+#: views/plugin_options_2.php:1240 views/plugin_options_1.php:893
+msgid "Payments behavior"
+msgstr "Comportamiento de pagos"
+
+#: views/plugin_options_2.php:899 views/plugin_options_2.php:1225
+#: views/plugin_options_1.php:448 views/plugin_options_1.php:887
+msgid "Payments rules"
+msgstr "Reglas de pagos"
+
+#: views/plugin_options_data.php:49
+msgid "PHP Session"
+msgstr "Sesión PHP"
+
+#: classes/woocs_after_33.php:2787 classes/woocs_after_33.php:2818
+#: classes/woocs_after_33.php:2843 classes/woocs_after_33.php:2869
+msgid "Please use the API key"
+msgstr "Utilice la clave API"
+
+#: classes/smart-designer.php:73
+msgid "Pointer color"
+msgstr "Color del puntero"
+
+#: views/plugin_options_2.php:346 views/plugin_options_1.php:64
+msgid ""
+"Port for: memcached or redis. Usually for memcached port is 11211, for redis "
+"port is 6379. Read your hosting documentation about what port to use for "
+"memcached or redis."
+msgstr ""
+"Puerto para: memcached o redis. Por lo general, el puerto de memcached es "
+"11211, y el puerto de redis es 6379. Lea la documentación de su alojamiento "
+"sobre qué puerto usar para memcached o redis."
+
+#: views/plugin_options_2.php:180 views/plugin_options_2.php:1932
+#: views/plugin_options_1.php:309 views/plugin_options_1.php:325
+msgid "Position"
+msgstr "Posición"
+
+#: views/widgets/rates_form.php:18 views/widgets/converter_form.php:18
+msgid "Precision"
+msgstr "Precisión"
+
+#: views/plugin_options_2.php:119
+msgid "Prepend Currency"
+msgstr "Anteponer moneda"
+
+#: views/plugin_options_2.php:1969
+msgid "Press the button if you want to update currency rate!"
+msgstr "¡Presione el botón si desea actualizar el tipo de cambio!"
+
+#: views/plugin_options_1.php:1489
+msgid ""
+"Press this button if you want get currency rate from the selected aggregator "
+"above!"
+msgstr ""
+"¡Presione este botón si desea obtener la tasa de cambio del agregador "
+"seleccionado arriba!"
+
+#: views/plugin_options_2.php:604 views/plugin_options_1.php:493
+msgid "Prices preloader"
+msgstr "Precargador de precios"
+
+#: views/plugin_options_2.php:422 views/plugin_options_1.php:112
+msgid "Prices without cents"
+msgstr "Precios sin centavos"
+
+#: views/plugin_options_1.php:1520
+msgid "Private"
+msgstr "Privados"
+
+#: classes/woocs_after_33.php:5476
+msgid "Profile is deleted"
+msgstr "El perfil está eliminado"
+
+#: views/plugin_options_2.php:1402 views/plugin_options_1.php:1033
+msgid "Profiles"
+msgstr "perfiles"
+
+#: views/plugin_options_1.php:1519
+msgid "Public"
+msgstr "Público"
+
+#: views/plugin_options_2.php:1614
+msgid "Quick Introduction"
+msgstr "Introducción rápida"
+
+#: views/plugin_options_1.php:1295
+msgid "Quick introduction"
+msgstr "Introducción rápida"
+
+#: views/shortcodes/woocs_rates.php:61 views/shortcodes/woocs_rates.php:69
+msgid "Rate"
+msgstr "Tarifa"
+
+#: views/plugin_options_1.php:312 views/plugin_options_1.php:328
+msgid "Rate and Interest"
+msgstr "Tasa e interés"
+
+#: views/plugin_options_2.php:354 views/plugin_options_1.php:72
+msgid "Rate auto update"
+msgstr "Valorar la actualización automática"
+
+#: views/plugin_options_2.php:181 views/plugin_options_2.php:1961
+msgid "Rate+%"
+msgstr "Tasa +%"
+
+#: views/plugin_options_2.php:1325 views/plugin_options_1.php:972
+msgid "read this please"
+msgstr "lea esto por favor"
+
+#: views/plugin_options_2.php:1655 views/plugin_options_1.php:1271
+msgid "Read wiki about Currency Active codes"
+msgstr "Leer wiki sobre códigos de moneda activa"
+
+#: views/plugin_options_2.php:221 views/plugin_options_1.php:368
+msgid ""
+"Read wiki about Currency Active codes  <-  Get right currencies codes here "
+"if you are not sure about it!"
+msgstr ""
+"Lea la wiki sobre los códigos de moneda activa  <-  ¡Obtenga los códigos de "
+"moneda correctos aquí si no está seguro!"
+
+#. Author of the plugin
+msgid "realmag777"
+msgstr ""
+
+#: classes/woocs_after_33.php:5396
+msgid "Recalculate all orders"
+msgstr "Recalcular todos los pedidos"
+
+#: classes/woocs_after_33.php:5396
+msgid ""
+"Recalculate all orders with basic currency. Recommended test this option on "
+"the clone of your site! Read the documentation of the plugin about it!"
+msgstr ""
+"Vuelva a calcular todos los pedidos con la moneda básica. ¡Se recomienda "
+"probar esta opción en el clon de su sitio! ¡Lea la documentación del "
+"complemento al respecto!"
+
+#: views/woocs_order_metabox.php:41
+msgid "Recalculate current order with the selected currency."
+msgstr "Vuelva a calcular el pedido actual con la moneda seleccionada."
+
+#: views/woocs_order_metabox.php:41
+msgid "Recalculate order"
+msgstr "Volver a calcular el pedido"
+
+#: views/plugin_options_1.php:113
+msgid ""
+"Recount prices without cents everywhere like in JPY and TWD which by its "
+"nature have not cents. Use comma. Example: UAH,RUB. Test it for checkout "
+"after setup!"
+msgstr ""
+"Cuente los precios sin centavos en todas partes como en JPY y TWD que por su "
+"naturaleza no tienen centavos. Usa coma. Ejemplo: UAH, RUB. ¡Pruébelo para "
+"pagar después de la instalación!"
+
+#: views/plugin_options_2.php:432
+msgid ""
+"Recounts prices without cents everywhere like in JPY and TWD which by its "
+"nature have not cents. Use comma. Example: UAH,RUB. Test it for checkout "
+"after setup!"
+msgstr ""
+"Recuenta precios sin centavos en todas partes como en JPY y TWD que por su "
+"naturaleza no tienen centavos. Usa coma. Ejemplo: UAH, RUB. ¡Pruébelo para "
+"pagar después de la instalación!"
+
+#: views/fixed/product_user_role_data.php:24
+#: views/fixed/product_price_data.php:12 views/fixed/product_price_data.php:42
+msgid "Regular price"
+msgstr "Precio regular"
+
+#: views/plugin_options_2.php:2053 views/plugin_options_2.php:2054
+#: views/fixed/product_user_role_data.php:36
+#: views/fixed/product_coupon_data.php:17
+#: views/fixed/product_coupon_restriction_data.php:21
+#: views/fixed/product_price_data.php:24 views/fixed/product_price_data.php:54
+msgid "Remove"
+msgstr "Eliminar"
+
+#: views/plugin_options_1.php:1552
+msgid "remove"
+msgstr "retirar"
+
+#: views/plugin_options_2.php:1846 views/plugin_options_1.php:1273
+#: views/plugin_options_1.php:1355
+msgid "reset the browser cache"
+msgstr "restablecer la caché del navegador"
+
+#: views/plugin_options_2.php:1825 views/plugin_options_1.php:1245
+msgid "Reset to default"
+msgstr "Restablecen a los predeterminados"
+
+#: views/shortcodes/woocs_converter.php:64
+msgid "results"
+msgstr "resultados"
+
+#: views/plugin_options_2.php:654 views/plugin_options_1.php:528
+msgid "Reverse this option"
+msgstr "Invertir esta opción"
+
+#: views/plugin_options_2.php:647 views/plugin_options_1.php:521
+msgid "Reverse use"
+msgstr "Uso inverso"
+
+#: views/plugin_options_2.php:1023 views/plugin_options_1.php:748
+msgid "Right"
+msgstr "Derecha"
+
+#: views/widgets/selector_form.php:35
+msgid "right"
+msgstr "derecho"
+
+#: views/plugin_options_2.php:988 views/plugin_options_1.php:721
+msgid "Roll blocks"
+msgstr "Rollo de bloques"
+
+#: views/plugin_options_2.php:989 views/plugin_options_1.php:723
+msgid "Round select"
+msgstr "Seleccionar ronda"
+
+#: views/fixed/product_user_role_data.php:30
+#: views/fixed/product_price_data.php:18 views/fixed/product_price_data.php:48
+msgid "Sale price"
+msgstr "Precio de venta"
+
+#: views/plugin_options_2.php:1823 views/plugin_options_1.php:1243
+msgid "Save and exit"
+msgstr "Guardar y Salir"
+
+#: views/plugin_options_2.php:1822 views/plugin_options_1.php:1242
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: classes/woocs_after_33.php:1495
+msgid "Save changes please!"
+msgstr "¡Guarde los cambios por favor!"
+
+#: classes/smart-designer.php:49
+msgid "Saved!"
+msgstr "¡Salvado!"
+
+#: classes/smart-designer.php:48
+msgid "saving ..."
+msgstr "ahorrando ..."
+
+#: classes/smart-designer.php:56
+msgid "Scale"
+msgstr "Escala"
+
+#: views/plugin_options_2.php:1297 views/plugin_options_2.php:1354
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: views/plugin_options_1.php:943 views/plugin_options_1.php:997
+msgid "select all"
+msgstr "seleccionar todo"
+
+#: views/shortcodes/styles/style-3/index.php:83
+msgid "Select Currency"
+msgstr "Seleccione el tipo de moneda"
+
+#: classes/smart-designer.php:53
+msgid "Select currency"
+msgstr "Seleccione el tipo de moneda"
+
+#: views/plugin_options_2.php:1434 views/plugin_options_1.php:1063
+msgid "Select currency..."
+msgstr "Seleccione el tipo de moneda..."
+
+#: classes/woocs_after_33.php:1497
+msgid "Select flag for"
+msgstr "Seleccionar bandera para"
+
+#: views/fixed/product_price_data.php:61
+msgid "select some countries"
+msgstr "seleccionar algunos países"
+
+#: views/plugin_options_2.php:1933 views/plugin_options_1.php:1419
+msgid "Select symbol position"
+msgstr "Seleccionar la posición del símbolo"
+
+#: views/fixed/product_user_role_data.php:45
+msgid "select user role"
+msgstr "seleccionar rol de usuario"
+
+#: views/plugin_options_2.php:184 views/plugin_options_2.php:1994
+#: views/plugin_options_2.php:1996 views/plugin_options_1.php:311
+#: views/plugin_options_1.php:327 views/plugin_options_1.php:1460
+#: views/plugin_options_1.php:1462
+msgid "Separators"
+msgstr "Separadores"
+
+#: views/plugin_options_2.php:328 views/plugin_options_1.php:55
+msgid ""
+"Server or socket for: memcached or redis. Usually is localhost. Read your "
+"hosting documentation about what host to use for memcached or redis."
+msgstr ""
+"Servidor o socket para: memcached o redis. Normalmente es localhost. Lea la "
+"documentación de su alojamiento sobre qué host usar para memcached o redis."
+
+#: views/plugin_options_2.php:1895 views/plugin_options_1.php:1401
+msgid ""
+"Set etalon main currency. This should be the currency in which the price of "
+"goods exhibited!"
+msgstr ""
+"Establece la moneda principal de etalon. ¡Esta debe ser la moneda en la que "
+"se exhiba el precio de los bienes!"
+
+#: views/plugin_options_2.php:1385 views/plugin_options_1.php:1014
+msgid "Set title"
+msgstr "Establecer título"
+
+#: classes/woocs_after_33.php:1496
+msgid "Set title!"
+msgstr "¡Establecer título!"
+
+#: views/plugin_options_2.php:596 views/plugin_options_1.php:484
+msgid ""
+"Set Yes here ONLY if you are REALLY use cache plugin for your site, for "
+"example like Super cache or Hiper cache (doesn matter). + Set \"Custom price "
+"format\", for example: __PRICE__ (__CODE__). After enabling this feature - "
+"clean your cache to make it works. It will allow show prices in selected "
+"currency on all pages of site. Fee for this feature - additional AJAX "
+"queries for products prices redrawing."
+msgstr ""
+"Establezca Sí aquí SÓLO si REALMENTE está utilizando el complemento de caché "
+"para su sitio, por ejemplo, como Super cache o Hiper cache (no importa). + "
+"Establecer \\ \"Formato de precio personalizado \", por ejemplo: __PRICE__ "
+"(__CODE__). Después de habilitar esta función, limpie su caché para que "
+"funcione. Permitirá mostrar los precios en la moneda seleccionada en todas "
+"las páginas del sitio. Tarifa por esta función: consultas AJAX adicionales "
+"para el rediseño de precios de productos."
+
+#: views/plugin_options_2.php:414 views/plugin_options_1.php:104
+msgid ""
+"Set your format how to display price on front. Use keys: __CODE__,__PRICE__. "
+"Leave it empty to use default format. Example: __PRICE__ (__CODE__)"
+msgstr ""
+"Establezca su formato de cómo mostrar el precio en el frente. Utilice las "
+"teclas: __CODE __, __ PRICE__. Déjelo vacío para usar el formato "
+"predeterminado. Ejemplo: __PRICE__ (__CODE__)"
+
+#: classes/woocs_after_33.php:965
+msgid "Settings"
+msgstr "Ajustes"
+
+#: views/plugin_options_1.php:894
+msgid ""
+"Should be payments system be hidden for selected currencies or vice versa "
+"shown!"
+msgstr ""
+"¡El sistema de pagos debe estar oculto para las monedas seleccionadas o "
+"viceversa!"
+
+#: views/plugin_options_2.php:1261
+msgid ""
+"Should the payment systems be hidden for selected currencies or vice versa "
+"shown!"
+msgstr ""
+"¿Deben estar ocultos los sistemas de pago para las monedas seleccionadas o "
+"viceversa?"
+
+#: views/plugin_options_2.php:450
+msgid "Show / Hide flags on the front drop-down"
+msgstr "Mostrar / Ocultar banderas en el menú desplegable frontal"
+
+#: views/plugin_options_2.php:1172
+msgid "Show / Hide on mobile device (highest priority)"
+msgstr "Mostrar / Ocultar en dispositivo móvil (máxima prioridad)"
+
+#: views/plugin_options_1.php:459
+msgid "Show approx. amount"
+msgstr "Mostrar aprox. Monto"
+
+#: views/plugin_options_2.php:568 views/plugin_options_1.php:470
+msgid "Show approx. price"
+msgstr "Mostrar aprox. precio"
+
+#: views/plugin_options_2.php:550
+msgid "Show approximate amount"
+msgstr "Mostrar monto aproximado"
+
+#: views/plugin_options_1.php:460
+msgid ""
+"Show approximate amount on the checkout and the cart page with currency of "
+"user defined by IP in the GeoIp rules tab. Works only with currencies rates "
+"data and NOT with fixed prices rules and geo rules."
+msgstr ""
+"Muestre la cantidad aproximada en el pago y la página del carrito con la "
+"moneda del usuario definida por IP en la pestaña de reglas de GeoIp. "
+"Funciona solo con datos de tasas de divisas y NO con reglas de precios fijos "
+"y reglas geográficas."
+
+#: views/plugin_options_2.php:560
+msgid ""
+"Show approximate amount on the checkout page and the cart page with currency "
+"of user defined by IP in the GeoIp rules tab. Works only with the currencies "
+"rates data and NOT with: fixed prices rules, geo rules."
+msgstr ""
+"Muestre la cantidad aproximada en la página de pago y la página del carrito "
+"con la moneda del usuario definida por IP en la pestaña de reglas de GeoIp. "
+"Funciona solo con los datos de tasas de divisas y NO con: reglas de precios "
+"fijos, reglas geográficas."
+
+#: views/plugin_options_1.php:471
+msgid ""
+"Show approximate price on the shop and the single product page with currency "
+"of user defined by IP in the GeoIp rules tab. Works only with currencies "
+"rates data and NOT with fixed prices rules and geo rules."
+msgstr ""
+"Muestre el precio aproximado en la tienda y la página de un solo producto "
+"con la moneda del usuario definida por IP en la pestaña de reglas de GeoIp. "
+"Funciona solo con datos de tasas de divisas y NO con reglas de precios fijos "
+"y reglas geográficas."
+
+#: views/plugin_options_2.php:578
+msgid ""
+"Show approximate price on the shop page and the product single page with "
+"currency of user defined by IP in the GeoIp rules tab. Works only with "
+"currencies rates data and NOT with: fixed prices rules, geo rules."
+msgstr ""
+"Muestre el precio aproximado en la página de la tienda y la página única del "
+"producto con la moneda del usuario definida por IP en la pestaña de reglas "
+"de GeoIp. Funciona solo con datos de tasas de divisas y NO con: reglas de "
+"precios fijos, reglas geográficas."
+
+#: views/plugin_options_2.php:2031 views/plugin_options_1.php:1497
+msgid "Show cents"
+msgstr "Mostrar centavos"
+
+#: views/plugin_options_1.php:1528
+msgid ""
+"Show currency for all on the site front or Hide for private moments in wp "
+"admin panel using only."
+msgstr ""
+"Muestre la moneda para todos en el frente del sitio u Ocultar para momentos "
+"privados en el panel de administración de wp usando solo."
+
+#: views/plugin_options_2.php:476
+msgid "Show currency symbols"
+msgstr "Mostrar símbolos de moneda"
+
+#: classes/smart-designer.php:69
+msgid "Show description"
+msgstr "Mostrar descripcion"
+
+#: classes/smart-designer.php:65
+msgid "Show flag"
+msgstr "Mostrar bandera"
+
+#: views/widgets/selector_form.php:26
+msgid "Show flags"
+msgstr "Mostrar banderas"
+
+#: views/plugin_options_2.php:440 views/plugin_options_1.php:384
+msgid "Show flags by default"
+msgstr "Mostrar banderas por defecto"
+
+#: views/plugin_options_2.php:504 views/plugin_options_1.php:416
+msgid ""
+"Show info icon near the price of the product which while its under hover "
+"shows prices of products in all currencies"
+msgstr ""
+"Mostrar el ícono de información cerca del precio del producto que, mientras "
+"está bajo el cursor, muestra los precios de los productos en todas las "
+"monedas"
+
+#: views/plugin_options_1.php:404
+msgid "Show money signs"
+msgstr "Mostrar signos de dinero"
+
+#: views/plugin_options_2.php:1155 views/plugin_options_1.php:866
+msgid "Show on all devices"
+msgstr "Mostrar en todos los dispositivos"
+
+#: views/plugin_options_2.php:1156 views/plugin_options_1.php:867
+msgid "Show on mobile devices only"
+msgstr "Mostrar solo en dispositivos móviles"
+
+#: views/plugin_options_2.php:1107 views/plugin_options_1.php:836
+msgid "Show on the pages"
+msgstr "Mostrar en las páginas"
+
+#: views/plugin_options_2.php:622 views/plugin_options_1.php:504
+msgid "Show options button on top admin bar."
+msgstr "Mostrar el botón de opciones en la barra de administración superior."
+
+#: views/plugin_options_2.php:486
+msgid "Show or hide money symbols on the site front drop-down"
+msgstr ""
+"Mostrar u ocultar símbolos de dinero en el menú desplegable frontal del sitio"
+
+#: views/plugin_options_2.php:494 views/plugin_options_1.php:415
+msgid "Show price info icon"
+msgstr "Mostrar icono de información de precio"
+
+#: classes/smart-designer.php:58
+msgid "Show title"
+msgstr "Mostrar título"
+
+#: views/plugin_options_2.php:632 views/plugin_options_1.php:505
+msgid ""
+"Show WOOCS options button on top admin bar for quick access. Very handy for "
+"active work. Visible for site administrators only!"
+msgstr ""
+"Muestra el botón de opciones de WOOCS en la barra de administración superior "
+"para un acceso rápido. Muy útil para trabajos activos. ¡Visible solo para "
+"administradores del sitio!"
+
+#: views/plugin_options_1.php:385
+msgid "Show/hide flags on the front drop-down"
+msgstr "Mostrar / ocultar banderas en el menú desplegable frontal"
+
+#: views/plugin_options_1.php:405
+msgid "Show/hide money signs on the front drop-down"
+msgstr "Mostrar / ocultar letreros de dinero en el menú desplegable frontal"
+
+#: views/plugin_options_1.php:861
+msgid "Show/Hide on mobile device (highest priority)"
+msgstr "Mostrar / Ocultar en dispositivo móvil (máxima prioridad)"
+
+#: views/plugin_options_2.php:99 views/plugin_options_2.php:1016
+#: views/plugin_options_1.php:741
+msgid "Side"
+msgstr "Lado"
+
+#: views/plugin_options_2.php:943 views/plugin_options_1.php:221
+msgid "Side switcher"
+msgstr "Conmutador lateral"
+
+#: views/plugin_options_2.php:981 views/plugin_options_1.php:714
+msgid "Skin"
+msgstr "Piel"
+
+#: views/plugin_options_2.php:1731 views/plugin_options_1.php:1158
+msgid "Smart Designer"
+msgstr "Diseñador inteligente"
+
+#: views/plugin_options_2.php:289
+msgid "Some aggregators are required an API key."
+msgstr "Algunos agregadores necesitan una clave API."
+
+#: views/plugin_options_1.php:36
+msgid "Some aggregators require an API key. See the hint below how to get it!"
+msgstr ""
+"Algunos agregadores requieren una clave API. ¡Vea la pista a continuación "
+"cómo conseguirlo!"
+
+#: views/plugin_options_2.php:1700
+msgid "Some questions"
+msgstr "Algunas preguntas"
+
+#: classes/smart-designer.php:47
+msgid "Something wrong!"
+msgstr "¡Algo mal!"
+
+#: views/plugin_options_2.php:368 views/plugin_options_1.php:87
+msgid "special: each 15 minutes"
+msgstr "especial: cada 15 minutos"
+
+#: views/plugin_options_2.php:369 views/plugin_options_1.php:88
+msgid "special: each 30 minutes"
+msgstr "especial: cada 30 minutos"
+
+#: views/plugin_options_2.php:370 views/plugin_options_1.php:89
+msgid "special: each 45 minutes"
+msgstr "especial: cada 45 minutos"
+
+#: views/plugin_options_2.php:367 views/plugin_options_1.php:86
+msgid "special: each 5 minutes"
+msgstr "especial: cada 5 minutos"
+
+#: views/plugin_options_2.php:366 views/plugin_options_1.php:85
+msgid "special: each minute"
+msgstr "especial: cada minuto"
+
+#: views/plugin_options_2.php:83 views/plugin_options_2.php:870
+#: views/plugin_options_2.php:881 views/plugin_options_2.php:1464
+#: views/plugin_options_1.php:204 views/plugin_options_1.php:650
+#: views/plugin_options_1.php:661
+msgid "Statistic"
+msgstr "Estadísticamente"
+
+#: views/plugin_options_2.php:245 views/plugin_options_2.php:263
+#: views/plugin_options_2.php:281 views/plugin_options_2.php:302
+#: views/plugin_options_2.php:320 views/plugin_options_2.php:338
+#: views/plugin_options_2.php:356 views/plugin_options_2.php:388
+#: views/plugin_options_2.php:406 views/plugin_options_2.php:424
+#: views/plugin_options_2.php:442 views/plugin_options_2.php:460
+#: views/plugin_options_2.php:478 views/plugin_options_2.php:496
+#: views/plugin_options_2.php:514 views/plugin_options_2.php:532
+#: views/plugin_options_2.php:552 views/plugin_options_2.php:570
+#: views/plugin_options_2.php:588 views/plugin_options_2.php:606
+#: views/plugin_options_2.php:624 views/plugin_options_2.php:642
+#: views/plugin_options_2.php:683 views/plugin_options_2.php:693
+#: views/plugin_options_2.php:722 views/plugin_options_2.php:755
+#: views/plugin_options_2.php:781 views/plugin_options_2.php:799
+#: views/plugin_options_2.php:817 views/plugin_options_2.php:837
+#: views/plugin_options_2.php:872 views/plugin_options_2.php:901
+#: views/plugin_options_2.php:919 views/plugin_options_2.php:959
+#: views/plugin_options_2.php:983 views/plugin_options_2.php:1018
+#: views/plugin_options_2.php:1047 views/plugin_options_2.php:1067
+#: views/plugin_options_2.php:1088 views/plugin_options_2.php:1109
+#: views/plugin_options_2.php:1130 views/plugin_options_2.php:1151
+#: views/plugin_options_2.php:1182 views/plugin_options_2.php:1200
+#: views/plugin_options_2.php:1232
+msgid "Status"
+msgstr "Estado"
+
+#: views/plugin_options_2.php:336 views/plugin_options_1.php:63
+msgid "Storage port"
+msgstr "Puerto de almacenamiento"
+
+#: views/plugin_options_2.php:318 views/plugin_options_1.php:54
+msgid "Storage server"
+msgstr "Servidor de almacenamiento"
+
+#: views/plugin_options_2.php:128 views/plugin_options_1.php:253
+msgid "Style #1"
+msgstr "Estilo #1"
+
+#: views/plugin_options_2.php:129 views/plugin_options_1.php:254
+msgid "Style #2"
+msgstr "Estilo #2"
+
+#: views/plugin_options_2.php:130 views/plugin_options_1.php:255
+msgid "Style #3"
+msgstr "Estilo #3"
+
+#: views/plugin_options_1.php:715
+msgid "Style of the switcher on the site front"
+msgstr "Estilo del conmutador en el frente del sitio."
+
+#: views/plugin_options_2.php:1008
+msgid "Style of the switcher on the site front (px)"
+msgstr "Estilo del conmutador en el frente del sitio (px)"
+
+#: views/plugin_options_2.php:1558
+#| msgid "support"
+msgid "Support"
+msgstr "Apoyo"
+
+#: views/plugin_options_2.php:468
+msgid "Switches currency without GET parameters (?currency=USD) in the link"
+msgstr "Cambia la moneda sin parámetros GET (? Moneda = USD) en el enlace"
+
+#: views/plugin_options_1.php:395
+msgid "Switches currency without GET properties (?currency=USD) in the link."
+msgstr "Cambia la moneda sin propiedades GET (? Moneda = USD) en el enlace."
+
+#: views/plugin_options_2.php:179 views/plugin_options_2.php:1924
+#: views/plugin_options_1.php:308 views/plugin_options_1.php:324
+msgid "Symbol"
+msgstr "Símbolo"
+
+#: classes/woocs_after_33.php:5576
+#, php-format
+msgid ""
+"That's awesome! Could you please do us a BIG favor and give it a 5-star "
+"rating on %s to help us spread the word and boost our motivation?"
+msgstr ""
+"¡Eso es genial! ¿Podría hacernos un GRAN favor y darle una calificación de 5 "
+"estrellas en %s para ayudarnos a correr la voz y aumentar nuestra motivación?"
+
+#: views/fixed/product_coupon_data.php:31
+msgid "The coupon fixed amount rules"
+msgstr "Las reglas de la cantidad fija del cupón"
+
+#: views/fixed/product_coupon_restriction_data.php:35
+msgid "The coupon fixed Minimum and Maximum spend rules"
+msgstr "El cupón fijó las reglas de gasto mínimo y máximo."
+
+#: classes/woocs_after_33.php:743
+msgid ""
+"The following options affect how prices are displayed on the frontend. "
+"WooCommerce Currency Switcher is activated. Set default currency %s please."
+msgstr ""
+"Las siguientes opciones afectan la forma en que se muestran los precios en "
+"la interfaz. El conmutador de divisas de WooCommerce está activado. "
+"Establezca la moneda predeterminada %s, por favor."
+
+#: views/plugin_options_2.php:289 views/plugin_options_1.php:1349
+msgid "The Free Currency Converter"
+msgstr "El convertidor de divisas gratuito"
+
+#: classes/woocs_after_33.php:3505
+msgid "The maximum spend for this coupon is %s."
+msgstr "El gasto máximo para este cupón es %s."
+
+#: classes/woocs_after_33.php:3510
+msgid "The minimum spend for this coupon is %s."
+msgstr "El gasto mínimo para este cupón es %s."
+
+#: views/plugin_options_2.php:1531 views/plugin_options_1.php:1105
+msgid "the plugin forum"
+msgstr "el foro de complementos"
+
+#: views/fixed/product_user_role_data.php:9
+msgid "The price based on user role"
+msgstr "El precio basado en el rol del usuario."
+
+#: views/fixed/product_price_data.php:102
+msgid "The product custom GeoIP rules"
+msgstr "Las reglas GeoIP personalizadas del producto"
+
+#: views/fixed/product_price_data.php:98
+msgid "The product fixed prices rules"
+msgstr "Las reglas de precios fijos del producto"
+
+#: views/plugin_options_2.php:1037 views/plugin_options_1.php:742
+msgid "The side where the switcher is be placed"
+msgstr "El lado donde se coloca el conmutador"
+
+#: views/plugin_options_2.php:1208 views/plugin_options_1.php:790
+msgid "The switcher color when mouse hovering"
+msgstr "El color del conmutador al pasar el mouse"
+
+#: views/plugin_options_2.php:1377 views/plugin_options_1.php:1011
+msgid "This make work on rules settings for each product more fast"
+msgstr ""
+"Esto agiliza el trabajo en la configuración de reglas para cada producto."
+
+#: views/woocs_order_metabox.php:24
+msgid "THIS order currency is changed manually %s!"
+msgstr "¡ESTE orden de moneda se cambia manualmente %s!"
+
+#: views/plugin_options_2.php:1787 views/plugin_options_1.php:1205
+#: views/widgets/selector_form.php:5 views/widgets/rates_form.php:5
+#: views/widgets/converter_form.php:5
+msgid "Title"
+msgstr "Título"
+
+#: classes/smart-designer.php:78
+msgid "Title Bold"
+msgstr "Título en negrita"
+
+#: classes/smart-designer.php:61
+msgid "Title color"
+msgstr "Color del título"
+
+#: classes/smart-designer.php:62
+msgid "Title font"
+msgstr "Fuente del titulo"
+
+#: classes/smart-designer.php:60
+msgid "Title font size"
+msgstr "Tamaño de fuente del título"
+
+#: classes/smart-designer.php:59
+msgid "Title value"
+msgstr "Valor del título"
+
+#: views/plugin_options_2.php:1506 views/plugin_options_1.php:1139
+#: views/shortcodes/woocs_converter.php:45
+msgid "to"
+msgstr "a"
+
+#: views/plugin_options_2.php:1045 views/plugin_options_1.php:761
+msgid "Top margin"
+msgstr "Margen superior"
+
+#: views/woocs_order_metabox.php:27
+msgid "Total amount"
+msgstr "Cantidad total"
+
+#: classes/woocs_after_33.php:3124
+#| msgid "Total in basic currency:"
+msgid "Total in basic currency: "
+msgstr "Total en moneda básica:"
+
+#: views/plugin_options_data.php:50
+msgid "Transient"
+msgstr "Transitorio"
+
+#: views/plugin_options_2.php:1642
+msgid "Translations"
+msgstr "Traducciones"
+
+#: views/plugin_options_2.php:362 views/plugin_options_1.php:81
+msgid "twicedaily"
+msgstr "dos veces al día"
+
+#: views/plugin_options_2.php:120 views/plugin_options_1.php:244
+msgid "Update all rates"
+msgstr "Actualizar todas las tarifas"
+
+#: views/plugin_options_2.php:1393 views/plugin_options_1.php:1023
+msgid "Update profile"
+msgstr "Actualizar el perfil"
+
+#: views/plugin_options_2.php:1857 views/plugin_options_1.php:1365
+msgid "UPGRADE to Full version"
+msgstr "Actualizar a la versión completa"
+
+#: classes/smart-designer.php:83
+msgid ""
+"Use special keywords and their combination: __CODE__, __SIGN__, __DESCR__. "
+"Also you can use usual static text. Example: __CODE__ - __SIGN__"
+msgstr ""
+"Utilice palabras clave especiales y su combinación: __CODE__, __SIGN__, "
+"__DESCR__. También puede utilizar texto estático habitual. Ejemplo: __CODE__ "
+"- __SIGN__"
+
+#: views/plugin_options_2.php:1704 views/plugin_options_1.php:1290
+msgid "Using Geolocation causes problems, doesn’t seem to work for me"
+msgstr ""
+"El uso de la geolocalización causa problemas, no parece funcionar para mí"
+
+#: views/plugin_options_2.php:1682 views/plugin_options_1.php:1269
+msgid "Video tutorials"
+msgstr "vídeo tutoriales"
+
+#: views/plugin_options_1.php:314 views/plugin_options_1.php:330
+msgid "Visibility"
+msgstr "Completa"
+
+#: views/plugin_options_2.php:186 views/plugin_options_2.php:2022
+msgid "Visible"
+msgstr "Visible"
+
+#: views/shortcodes/woocs.php:6 views/shortcodes/woocs_converter.php:6
+#: views/shortcodes/woocs_rates.php:4
+msgid "Warning: Woocommerce is not activated"
+msgstr "Advertencia: Woocommerce no está activado"
+
+#: views/plugin_options_2.php:733 views/plugin_options_2.php:845
+#: views/plugin_options_1.php:583 views/plugin_options_1.php:644
+msgid "Watch video instructions"
+msgstr "Ver instrucciones en video"
+
+#: views/plugin_options_2.php:1684
+msgid ""
+"Watch video tutorials about WOOCS features to use its functionality in full "
+"force"
+msgstr ""
+"Vea tutoriales en video sobre las características de WOOCS para usar su "
+"funcionalidad con toda su fuerza"
+
+#: classes/woocs_after_33.php:5586
+msgid ""
+"We are sorry to hear you aren't enjoying WOOCS. We would love a chance to "
+"improve it. Could you take a minute and let us know what we can do better?"
+msgstr ""
+"Lamentamos saber que no está disfrutando de WOOCS. Nos encantaría tener la "
+"oportunidad de mejorarlo. ¿Podría tomarse un minuto y decirnos qué podemos "
+"hacer mejor?"
+
+#: views/plugin_options_1.php:1285
+msgid ""
+"We work hard to make this plugin more effective tool for your e-shops, and "
+"ready to %s hear your review, suggestions and opinions %s, please share it "
+"with us!"
+msgstr ""
+"Trabajamos arduamente para hacer que este complemento sea una herramienta "
+"más efectiva para sus tiendas electrónicas, y estamos listos para escuchar "
+"su revisión, sugerencias y opiniones %s, ¡compártala con nosotros!"
+
+#: views/plugin_options_2.php:364 views/plugin_options_1.php:83
+msgid "weekly"
+msgstr "semanal"
+
+#: views/plugin_options_2.php:243 views/plugin_options_1.php:15
+msgid "Welcome currency"
+msgstr "Moneda de bienvenida"
+
+#: views/plugin_options_2.php:1099 views/plugin_options_1.php:825
+msgid ""
+"What content to show in the switcher after mouse hover on any currency there."
+" Variants:  __CODE__ __FLAG___ __SIGN__ __DESCR__"
+msgstr ""
+"Qué contenido mostrar en el conmutador después de colocar el mouse sobre "
+"cualquier moneda allí. Variantes:  __CODE__ __FLAG___ __SIGN__ __DESCR__"
+
+#: views/plugin_options_2.php:1078 views/plugin_options_1.php:813
+msgid ""
+"What content to show in the switcher after the site page loading. Variants:  "
+"__CODE__ __FLAG___ __SIGN__ __DESCR__"
+msgstr ""
+"Qué contenido mostrar en el conmutador después de la carga de la página del "
+"sitio. Variantes:  __CODE__ __FLAG___ __SIGN__ __DESCR__"
+
+#: views/plugin_options_2.php:1141 views/plugin_options_1.php:849
+msgid ""
+"Where on the site the switcher should be hidden. If any value is presented "
+"here switcher will be hidden on that pages and visible on all another ones. "
+"You can use pages IDs using comma, example: 28,34,232. Also you can use "
+"special words as: product, shop, checkout, front_page, woocommerce"
+msgstr ""
+"En qué lugar del sitio debe estar oculto el conmutador. Si se presenta algún "
+"valor aquí, el conmutador estará oculto en esas páginas y será visible en "
+"todas las demás. Puede utilizar los ID de las páginas mediante comas, por "
+"ejemplo: 28,34,232. También puede utilizar palabras especiales como: "
+"producto, tienda, pago, portada, woocommerce"
+
+#: views/plugin_options_2.php:1120 views/plugin_options_1.php:837
+msgid ""
+"Where on the site the switcher should be visible. If any value is presented "
+"here switcher will be hidden on all another pages which not presented in "
+"this field. You can use pages IDs using comma, example: 28,34,232. Also you "
+"can use special words as: product, shop, checkout, front_page, woocommerce"
+msgstr ""
+"En qué lugar del sitio debería estar visible el conmutador. Si se presenta "
+"algún valor aquí, el conmutador se ocultará en todas las demás páginas que "
+"no se presenten en este campo. Puede utilizar los ID de las páginas mediante "
+"comas, por ejemplo: 28,34,232. También puede utilizar palabras especiales "
+"como: producto, tienda, pago, portada, woocommerce"
+
+#: views/widgets/selector_form.php:62
+msgid ""
+"Which text display in the drop-down options - currency code OR description "
+"text. Looks good for all dropdowns except ddslick."
+msgstr ""
+"Qué texto se muestra en las opciones desplegables: código de moneda O texto "
+"de descripción. Se ve bien para todos los menús desplegables excepto ddslick."
+
+#: classes/smart-designer.php:54 views/widgets/selector_form.php:11
+msgid "Width"
+msgstr "Ancho"
+
+#: classes/smart-designer.php:55
+msgid "Width 100%"
+msgstr "Ancho 100%"
+
+#: views/plugin_options_2.php:1867 views/plugin_options_2.php:1868
+#: views/plugin_options_1.php:1375 views/plugin_options_1.php:1376
+msgid "WOOBE - WooCommerce Bulk Editor Professional"
+msgstr "WOOBE - Editor masivo profesional de WooCommerce"
+
+#: classes/widgets/widget-currency-converter.php:9
+#: classes/widgets/widget-currency-converter.php:38
+msgid "WooCommerce Currency Converter"
+msgstr ""
+
+#: classes/widgets/widget-currency-converter.php:11
+msgid "WooCommerce Currency Converter by realmag777"
+msgstr ""
+
+#: classes/widgets/widget-currency-rates.php:9
+#: classes/widgets/widget-currency-rates.php:38
+msgid "WooCommerce Currency Rates"
+msgstr ""
+
+#: classes/widgets/widget-currency-rates.php:11
+msgid "WooCommerce Currency Rates by realmag777"
+msgstr ""
+
+#: classes/widgets/widget-woocs-selector.php:7
+#: classes/widgets/widget-woocs-selector.php:36
+msgid "WooCommerce Currency Switcher"
+msgstr ""
+
+#: views/plugin_options_2.php:24
+#, php-format
+msgid "WooCommerce Currency Switcher %s"
+msgstr ""
+
+#: classes/widgets/widget-woocs-selector.php:9
+msgid "WooCommerce Currency Switcher by realmag777"
+msgstr ""
+
+#: views/plugin_options_1.php:1255
+msgid "WooCommerce Currency Switcher SUPPORT"
+msgstr "SOPORTE de WooCommerce Currency Switcher"
+
+#: views/plugin_options_2.php:1629
+msgid "WooCommerce Currency Switcher Support"
+msgstr "WooCommerce Currency Switcher Apoyo"
+
+#: views/plugin_options_1.php:140
+msgid "WooCommerce Currency Switcher v.%s"
+msgstr "Cambiador de divisas de WooCommerce v.%s"
+
+#: views/plugin_options_2.php:1325 views/plugin_options_1.php:972
+msgid "WooCommerce GeoIP functionality doesn't work on your site"
+msgstr "La funcionalidad GeoIP de WooCommerce no funciona en su sitio"
+
+#: views/fixed/product_coupon_restriction_data.php:47
+#| msgid "WOOCS - the fixed Minimum and Maximum spend"
+msgid "WOOCS - fixed Minimum and Maximum spend"
+msgstr "WOOCS - el gasto mínimo y máximo fija"
+
+#: views/fixed/product_coupon_data.php:42
+msgid "WOOCS - the coupon fixed amount"
+msgstr "WOOCS - la cantidad fija del cupón"
+
+#: views/fixed/product_user_role_data.php:61
+msgid "WOOCS - the price based on user role"
+msgstr "WOOCS: el precio basado en el rol del usuario"
+
+#: views/fixed/product_price_data.php:152
+msgid "WOOCS - the product custom GeoIP rules"
+msgstr "WOOCS - las reglas GeoIP personalizadas del producto"
+
+#: views/fixed/product_price_data.php:116
+msgid "WOOCS - the product fixed prices"
+msgstr "WOOCS - los precios fijos del producto"
+
+#. Name of the plugin
+msgid "WOOCS - WooCommerce Currency Switcher"
+msgstr ""
+
+#: classes/woocs_after_33.php:721
+msgid "WOOCS Currency Options"
+msgstr "Opciones de moneda WOOCS"
+
+#: views/plugin_options_2.php:1583
+msgid "WOOCS has power bunch of functionality"
+msgstr "WOOCS tiene una gran cantidad de funciones"
+
+#: classes/woocs_after_33.php:1040 classes/woocs_after_33.php:1042
+msgid "WOOCS Order Info"
+msgstr "Información de pedido WOOCS"
+
+#: views/plugin_options_2.php:1862 views/plugin_options_2.php:1863
+#: views/plugin_options_1.php:1370 views/plugin_options_1.php:1371
+msgid "WOOF - WooCommerce Products Filter"
+msgstr "WOOF - Filtro de productos WooCommerce"
+
+#: views/plugin_options_2.php:1872 views/plugin_options_2.php:1873
+#: views/plugin_options_1.php:1380 views/plugin_options_1.php:1381
+msgid "WOOT - WooCommerce Active Products Tables"
+msgstr "WOOT - Tablas de productos activos de WooCommerce"
+
+#: views/plugin_options_2.php:136 views/plugin_options_1.php:261
+msgid "wSelect drop-down"
+msgstr "wSeleccionar menú desplegable"
+
+#: views/plugin_options_2.php:698 views/plugin_options_2.php:877
+#: views/plugin_options_1.php:557 views/plugin_options_1.php:657
+msgid "Yes"
+msgstr "Sí"
+
+#: classes/woocs_after_33.php:5572
+msgid "Yes, I love it"
+msgstr "Si lo amo"
+
+#: views/plugin_options_2.php:862 views/plugin_options_1.php:638
+msgid ""
+"You will be able to set different prices for each product (in BASIC currency)"
+" for different countries"
+msgstr ""
+"Podrás establecer diferentes precios para cada producto (en moneda BÁSICA) "
+"para diferentes países"
+
+#: views/plugin_options_2.php:789 views/plugin_options_1.php:609
+msgid ""
+"You will be able to set FIXED amount for coupon for each currency. ATTENTION:"
+" 'Is multiple allowed' should be enabled!"
+msgstr ""
+"Podrá establecer una cantidad FIJA de cupón para cada moneda. ATENCIÓN: ¡'Se "
+"permiten múltiples' debe estar habilitado!"
+
+#: views/plugin_options_2.php:807 views/plugin_options_1.php:619
+msgid ""
+"You will be able to set FIXED amount for each currency for free and all "
+"another shipping ways. ATTENTION: 'Is multiple allowed' should be enabled!"
+msgstr ""
+"Podrá establecer una cantidad FIJA para cada moneda de forma gratuita y "
+"todas las demás formas de envío. ATENCIÓN: ¡'Se permiten múltiples' debe "
+"estar habilitado!"
+
+#: views/plugin_options_2.php:745 views/plugin_options_1.php:574
+msgid ""
+"You will be able to set FIXED prices for simple and variable products. "
+"ATTENTION: 'Is multiple allowed' should be enabled!"
+msgstr ""
+"Podrás establecer precios FIJOS para productos simples y variables. ATENCIÓN:"
+" ¡'Se permiten múltiples' debe estar habilitado!"
+
+#: classes/woocs_after_33.php:2265
+msgid "Your country is not defined! Troubles with GeoIp service."
+msgstr "¡Tu país no está definido! Problemas con el servicio GeoIp."
+
+#: views/plugin_options_2.php:768 views/plugin_options_1.php:596
+msgid ""
+"Your country is not defined! Troubles with internet connection or GeoIp "
+"service."
+msgstr ""
+"¡Tu país no está definido! Problemas con la conexión a Internet o el "
+"servicio GeoIp."
+
+#: views/plugin_options_2.php:766 views/plugin_options_1.php:594
+msgid "Your country is: %s"
+msgstr "Su país es: %s"
+
+#: classes/woocs_after_33.php:2263
+msgid "Your country is: %s. (defined by woocommerce GeoIP functionality)"
+msgstr "Su país es: %s. (definido por la funcionalidad GeoIP de woocommerce)"
+
+#: views/plugin_options_2.php:31 views/plugin_options_1.php:149
+msgid ""
+"Your version of WooCommerce plugin is too obsolete. Update minimum to %s "
+"version to avoid malfunctionality!"
+msgstr ""
+"Su versión del complemento WooCommerce es demasiado obsoleta. ¡Actualice el "
+"mínimo a la versión %s para evitar fallos de funcionamiento!"

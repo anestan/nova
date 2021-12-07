@@ -1,0 +1,125 @@
+.woocs__buttons-group {
+  display: flex;
+
+  > .woocs__button, .woocs-panel-button {
+
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+
+  }
+
+}
+
+.woocs-btn {
+  display: inline-block;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: rgba(47, 85, 212, 0.1);
+  border: 1px solid rgba(47, 85, 212, 0.1);
+  color: #2f55d4;
+  box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
+
+  &:hover {
+    background-color: #2f55d4;
+    border-color: #2f55d4;
+    color: #fff;
+  }
+
+  &.woocs-btn-icon {
+    height: 36px;
+    width: 36px;
+    line-height: 34px;
+
+    i {
+      font-size: 21px;
+    }
+  }
+
+}
+
+.woocs__button,
+.woocs-panel-button{
+  display: inline-block;
+  padding: 4px 12px;
+  outline: none;
+  text-decoration: none;
+  font-size: $general-font-size;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  font-weight: 600;
+  color: #0d6efd;
+  border: 1px solid #2f55d4;
+  background-color: transparent;
+  border-radius: $border-radius;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+
+  @media (min-width: 768px) {
+    white-space: nowrap;
+  }
+
+  &:hover {
+    background-color: #2f55d4;
+    border-color: #2f55d4;
+    color: #fff;
+    box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
+  }
+
+  &-outline-warning {
+    border: 1px solid #f17425;
+    color: #f17425;
+    background-color: transparent;
+
+    &:hover {
+      background-color: #f17425;
+      border-color: #f17425;
+      color: #fff;
+      box-shadow: 0 3px 5px 0 rgb(241 116 37 / 30%);
+    }
+  }
+
+  &.woocs__button-small {
+    padding: 3px 8px;
+    font-size: 13px;
+  }
+
+  &[class*="woocs__size-icon"] {
+    padding: 4px 9px;
+  }
+
+}
+
+.woocs__size-icon-large {
+
+  i {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+}
+
+.wp-core-ui {
+
+  button.button-primary {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    background-color: #2f55d4;
+    border-color: #2f55d4;
+    color: #fff;
+
+    &:hover {
+      background-color: #2f55d4;
+      border-color: #2f55d4;
+    }
+  }
+
+}

@@ -1,0 +1,99 @@
+/* Flex */
+
+@mixin flex-element {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Forms */
+
+@mixin default-input-form {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #dee2e6;
+  color: #212529;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: border-color .25s ease;
+}
+
+@mixin hover-input-form {
+  border-color: #b8bbbf;
+}
+
+@mixin focus-input-form {
+  border-color: #2271b1;
+  box-shadow: 0 0 0 1px #2271b1;
+  outline: none;
+}
+
+/* Table */
+
+@mixin responsive-table {
+
+  thead, tbody, tfoot, th, tr, td {
+    display: block;
+  }
+
+  tbody {
+
+    tr {
+
+      &:nth-child(odd) > {
+        td {
+          background-color: #f5f8fd;
+        }
+      }
+
+      td {
+        background-color: #fff;
+      }
+
+    }
+
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+
+    td {
+      position: relative;
+      padding-left: 52%;
+
+      &:before {
+        position: absolute;
+        top: 50%;
+        left: 0.9375rem;
+        width: 45%;
+        content: attr(data-title);
+        padding-right: 0.625rem;
+        transform: translateY(-50%);
+      }
+
+      @media (max-width: 575px) {
+        padding-left: 40%;
+
+        &:before {
+          width: 35%;
+        }
+      }
+
+    }
+
+  }
+}

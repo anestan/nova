@@ -1,0 +1,258 @@
+.woocs__table {
+  border-collapse: collapse;
+  text-indent: initial;
+  border-spacing: initial;
+  margin-bottom: 0;
+  width: 100%;
+  color: #212529;
+  vertical-align: top;
+
+  @media (max-width: 992.98px) {
+    @include responsive-table;
+  }
+
+  th {
+    font-weight: 700;
+    text-align: left;
+    vertical-align: middle;
+    font-family: $general-font-family;
+    font-size: $general-font-size;
+    color: #161c2d;
+  }
+
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color .25s ease;
+  }
+
+  &.woocs__middle-size {
+
+    td {
+      padding: 1rem;
+    }
+
+  }
+
+  thead {
+
+    th {
+      text-align: center;
+      background-color: #d4e6fc;
+    }
+
+    .woocs__table-option {
+      @media (min-width: 767px)  { min-width: 150px; }
+      @media (min-width: 993px)  { min-width: 200px; }
+    }
+
+    .woocs__table-status {
+      min-width: 260px;
+    }
+  }
+
+  tbody {
+
+    td {
+      vertical-align: middle;
+      transition: background-color .35s ease;
+    }
+
+    tr {
+
+      &:hover {
+
+        th, td {
+          color: #3c4858;
+          background-color: #f8f9fa;
+        }
+
+        .woocs__table-desc {
+          background-color: #fff;
+        }
+
+      }
+
+    }
+
+  }
+
+    .woocs__table-card  {
+      @include flex-center;
+      justify-content: center;
+
+      &-with-el {
+        padding: 1rem .5rem;
+        flex-direction: column;
+      }
+
+      &-rate {
+        display: flex;
+        align-items: center;
+
+        > input {
+          @media (min-width: 1025px) {
+            width: 180px;
+          }
+        }
+      }
+
+      &-flex {
+        display: flex;
+
+        .select2-container {
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
+        }
+
+        @media (max-width: 1200px) {
+          flex-wrap: nowrap;
+        }
+
+        > .woocs__button {
+          &:last-child {
+            margin-left: 5px;
+          }
+        }
+
+      }
+
+      &.woocs-justify-start {
+        justify-content: flex-start;
+      }
+
+      .woocs__link {
+        position: relative;
+        overflow: hidden;
+        border-radius: $border-radius;
+        max-width: 250px;
+
+        .woocs__img {
+          display: block;
+        }
+
+        &:before {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          transition: all 0.5s ease;
+          background-color: #000;
+          opacity: 0;
+          border-radius: 6px;
+          content: "";
+        }
+
+        &:hover:before {
+          opacity: .1;
+        }
+
+      }
+
+      .wp-picker-container {}
+
+        select {
+          @include default-input-form;
+          padding: 0.375rem 2rem 0.375rem 0.75rem;
+
+          &:hover {
+            @include hover-input-form;
+          }
+
+          &:focus {
+            @include focus-input-form;
+          }
+        }
+
+        .woocs_draw-switcher {
+
+          &:not(:last-child) {
+            margin-bottom: 15px;
+          }
+
+        }
+
+    }
+
+    .woocs__table-desc {
+      background-color: #f8f9fc;
+      border-radius: $border-radius;
+      transition: background-color .35s ease;
+
+      .woocs__table-desc-body {
+        padding: 1.5rem;
+        font-size: 15px;
+        line-height: 1.6em;
+
+        @media (max-width: 575px) {
+          padding: 1rem;
+        }
+      }
+
+    }
+
+}
+
+.woocs__table-responsive {
+  display: block;
+  width: 100%;
+  background-color: $white-bg-color;
+}
+
+.woocs__data-table {
+
+  @media (max-width: 1024px) {
+    @include responsive-table;
+  }
+
+  thead {
+
+    th {
+      text-align: center;
+    }
+
+  }
+
+  tbody {
+
+    tr {
+      &:hover {
+        color: #3c4858;
+        background-color: #f8f9fa;
+      }
+    }
+
+  }
+
+}
+
+.woocs__table-fullwidth {
+  table-layout: fixed;
+  overflow-wrap: break-word;
+  width: 100%;
+}
+
+.woocs__settings-geo-table {
+
+  th, td {
+    padding: .5rem 1rem;
+  }
+
+  .woocs__settings-geo-table-title {
+    width: 90px;
+    padding: calc(.5rem - 10px) 1rem;
+  }
+
+  .woocs__settings-geo-table-td {
+
+    .select2-container {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+
+}

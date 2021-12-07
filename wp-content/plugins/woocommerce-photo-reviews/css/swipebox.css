@@ -1,0 +1,292 @@
+/*! Swipebox v1.3.0 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
+html.wcpr-swipebox-html.wcpr-swipebox-touch {
+    overflow: hidden !important
+}
+
+#wcpr-swipebox-overlay img {
+    border: none !important
+}
+
+#wcpr-swipebox-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999 !important;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#wcpr-swipebox-container {
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+#wcpr-swipebox-slider {
+    -webkit-transition: -webkit-transform .4s ease;
+    transition: transform .4s ease;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    white-space: nowrap;
+    position: absolute;
+    display: none;
+    cursor: pointer
+}
+
+#wcpr-swipebox-slider .slide {
+    height: 100%;
+    width: 100%;
+    line-height: 1px;
+    text-align: center;
+    display: inline-block
+}
+
+#wcpr-swipebox-slider .slide:before {
+    content: "";
+    display: inline-block;
+    height: 50%;
+    width: 1px;
+    margin-right: -1px
+}
+
+#wcpr-swipebox-slider .slide .wcpr-swipebox-inline-container, #wcpr-swipebox-slider .slide .swipebox-video-container, #wcpr-swipebox-slider .slide img {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    vertical-align: middle
+}
+
+#wcpr-swipebox-slider .slide .swipebox-video-container {
+    background: 0 0;
+    max-width: 1140px;
+    max-height: 100%;
+    width: 100%;
+    padding: 5%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#wcpr-swipebox-slider .slide .swipebox-video-container .swipebox-video {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative
+}
+
+#wcpr-swipebox-slider .slide .swipebox-video-container .swipebox-video iframe {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#wcpr-swipebox-slider .slide-loading {
+    background: url(../images/loader.gif) center center no-repeat
+}
+
+#wcpr-swipebox-bottom-bar, #wcpr-swipebox-top-bar {
+    -webkit-transition: .5s;
+    transition: .5s;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    height: 50px;
+    width: 100%
+}
+
+#wcpr-swipebox-bottom-bar {
+    bottom: -50px
+}
+
+#wcpr-swipebox-bottom-bar.visible-bars {
+    -webkit-transform: translate3d(0, -50px, 0);
+    transform: translate3d(0, -50px, 0)
+}
+
+#wcpr-swipebox-top-bar {
+    top: -50px
+}
+
+#wcpr-swipebox-top-bar.visible-bars {
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0)
+}
+
+#wcpr-swipebox-title {
+    display: block;
+    width: 100%;
+    text-align: center
+}
+
+#wcpr-swipebox-close, #wcpr-swipebox-next, #wcpr-swipebox-prev {
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    border: none !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    top: 0
+}
+
+#wcpr-swipebox-arrows {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px
+}
+
+#wcpr-swipebox-prev {
+    background-position: -32px 13px;
+    float: left
+}
+
+#wcpr-swipebox-next {
+    background-position: -78px 13px;
+    float: right
+}
+
+#wcpr-swipebox-close {
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 9999;
+    background-position: 15px 12px
+}
+
+.wcpr-swipebox-no-close-button #wcpr-swipebox-close {
+    display: none
+}
+
+#wcpr-swipebox-next.disabled, #wcpr-swipebox-prev.disabled {
+    opacity: .3
+}
+
+.wcpr-swipebox-no-touch #wcpr-swipebox-overlay.rightSpring #wcpr-swipebox-slider {
+    -webkit-animation: rightSpring .3s;
+    animation: rightSpring .3s
+}
+
+.wcpr-swipebox-no-touch #wcpr-swipebox-overlay.leftSpring #wcpr-swipebox-slider {
+    -webkit-animation: leftSpring .3s;
+    animation: leftSpring .3s
+}
+
+.wcpr-swipebox-touch #wcpr-swipebox-container:after, .wcpr-swipebox-touch #wcpr-swipebox-container:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    content: ' ';
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    opacity: 0
+}
+
+.wcpr-swipebox-touch #wcpr-swipebox-container:before {
+    left: 0;
+    -webkit-box-shadow: inset 10px 0 10px -8px #656565;
+    box-shadow: inset 10px 0 10px -8px #656565
+}
+
+.wcpr-swipebox-touch #wcpr-swipebox-container:after {
+    right: 0;
+    -webkit-box-shadow: inset -10px 0 10px -8px #656565;
+    box-shadow: inset -10px 0 10px -8px #656565
+}
+
+.wcpr-swipebox-touch #wcpr-swipebox-overlay.leftSpringTouch #wcpr-swipebox-container:before, .wcpr-swipebox-touch #wcpr-swipebox-overlay.rightSpringTouch #wcpr-swipebox-container:after {
+    opacity: 1
+}
+
+@-webkit-keyframes rightSpring {
+    0% {
+        left: 0
+    }
+    50% {
+        left: -30px
+    }
+    100% {
+        left: 0
+    }
+}
+
+@keyframes rightSpring {
+    0% {
+        left: 0
+    }
+    50% {
+        left: -30px
+    }
+    100% {
+        left: 0
+    }
+}
+
+@-webkit-keyframes leftSpring {
+    0% {
+        left: 0
+    }
+    50% {
+        left: 30px
+    }
+    100% {
+        left: 0
+    }
+}
+
+@keyframes leftSpring {
+    0% {
+        left: 0
+    }
+    50% {
+        left: 30px
+    }
+    100% {
+        left: 0
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #wcpr-swipebox-close {
+        right: 10px
+    }
+
+    #wcpr-swipebox-arrows {
+        width: 92%;
+        max-width: 800px
+    }
+}
+
+#wcpr-swipebox-overlay {
+    background: #0d0d0d
+}
+
+#wcpr-swipebox-bottom-bar, #wcpr-swipebox-top-bar {
+    text-shadow: 1px 1px 1px #000;
+    background: #000;
+    opacity: .95
+}
+
+#wcpr-swipebox-top-bar {
+    color: #fff !important;
+    font-size: 15px;
+    line-height: 43px;
+    font-family: Helvetica, Arial, sans-serif
+}

@@ -1,0 +1,300 @@
+2021-12-07T01:54:08+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 09a7607c1078ee5a467810a9a5774d83
+            [Date] => Dec 7, 2021 @ 1:54
+            [URL] => https://gateway.banmaerp.com/woocommerce/webhook/
+            [Duration] => 1.7346
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.9.0 Hookshot (WordPress/5.8.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.galaxynova.net/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => ERGqmFfI8/2+XqTlqgIIlvfItu+CsKXMhqIp9CJ4fow=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 09a7607c1078ee5a467810a9a5774d83
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Microsoft-IIS/10.0
+                                    [strict-transport-security] => max-age=2592000
+                                    [x-powered-by] => ASP.NET
+                                    [date] => Tue, 07 Dec 2021 01:54:06 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-12-07T01:54:09+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => ec340de71941a1dcc3adbe7012bec149
+            [Date] => Dec 7, 2021 @ 1:54
+            [URL] => https://gateway.banmaerp.com/woocommerce/webhook/
+            [Duration] => 1.08179
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.9.0 Hookshot (WordPress/5.8.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.galaxynova.net/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => KniZRtdSpSmYjEiPDJkIfFuMfG6i5/4WrG7owEuFW9Y=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => ec340de71941a1dcc3adbe7012bec149
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Microsoft-IIS/10.0
+                                    [strict-transport-security] => max-age=2592000
+                                    [x-powered-by] => ASP.NET
+                                    [date] => Tue, 07 Dec 2021 01:54:07 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-12-07T03:06:26+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 797a323afcd610fe559bb99f2f909309
+            [Date] => Dec 7, 2021 @ 3:06
+            [URL] => https://gateway.banmaerp.com/woocommerce/webhook/
+            [Duration] => 11.85301
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.9.0 Hookshot (WordPress/5.8.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.galaxynova.net/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => kFSpQUfXaztXX0n8+p5QTcTHxuoIb22FpZXjjLN4cW4=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 797a323afcd610fe559bb99f2f909309
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Microsoft-IIS/10.0
+                                    [strict-transport-security] => max-age=2592000
+                                    [x-powered-by] => ASP.NET
+                                    [date] => Tue, 07 Dec 2021 03:06:24 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-12-07T03:06:31+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 1c2600980aae463f0c75180e2f382d96
+            [Date] => 12月 7, 2021 @ 3:06
+            [URL] => https://gateway.banmaerp.com/woocommerce/webhook/
+            [Duration] => 1.07415
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.9.0 Hookshot (WordPress/5.8.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.galaxynova.net/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => V8Se3OJJa7ry0nD7jHWoL08VDlrI3nOV1SyWUiX5ahQ=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 1c2600980aae463f0c75180e2f382d96
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Microsoft-IIS/10.0
+                                    [strict-transport-security] => max-age=2592000
+                                    [x-powered-by] => ASP.NET
+                                    [date] => Tue, 07 Dec 2021 03:06:29 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-12-07T03:29:03+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9b5a2e50ce625dd3d67d4b23741ef0eb
+            [Date] => Dec 7, 2021 @ 3:29
+            [URL] => https://gateway.banmaerp.com/woocommerce/webhook/
+            [Duration] => 2.37705
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.9.0 Hookshot (WordPress/5.8.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.galaxynova.net/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => OZlfE/pwAX4BecC3IuL1O/dPEw+sIifuGFRr4MPiuOQ=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 9b5a2e50ce625dd3d67d4b23741ef0eb
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Microsoft-IIS/10.0
+                                    [strict-transport-security] => max-age=2592000
+                                    [x-powered-by] => ASP.NET
+                                    [date] => Tue, 07 Dec 2021 03:29:03 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2021-12-07T03:29:04+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 381d4375545fb60fe9af3c2a44690ce9
+            [Date] => Dec 7, 2021 @ 3:29
+            [URL] => https://gateway.banmaerp.com/woocommerce/webhook/
+            [Duration] => 0.80741
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/5.9.0 Hookshot (WordPress/5.8.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.galaxynova.net/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => /MRQUVO0nlJH9tthokKXIn1CEPCPOf4PLYVkGSAW+ko=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 381d4375545fb60fe9af3c2a44690ce9
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Microsoft-IIS/10.0
+                                    [strict-transport-security] => max-age=2592000
+                                    [x-powered-by] => ASP.NET
+                                    [date] => Tue, 07 Dec 2021 03:29:04 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

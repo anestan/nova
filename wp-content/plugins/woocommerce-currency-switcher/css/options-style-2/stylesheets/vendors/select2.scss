@@ -1,0 +1,105 @@
+span.select2-container--default {
+
+  span.select2-selection--multiple {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: $border-radius;
+
+    .select2-selection__rendered {
+      padding: 0 0.75rem;
+    }
+
+    .select2-selection__choice {
+      background-color: #e0ecfa;
+      border: none;
+    }
+
+  }
+
+  .select2-selection--single {
+    height: auto;
+    border-color: #2f55d4;
+    border-radius: $border-radius;
+
+    .select2-selection__rendered {
+      padding-top: 4px;
+      padding-bottom: 4px;
+      font-weight: 600;
+      color: #0d6efd;
+      line-height: inherit;
+    }
+  }
+
+}
+
+span.select2-container {
+
+  .select2-search__field {
+    min-width: auto;
+  }
+
+  .select2-selection--single {
+
+    .select2-selection__rendered {
+      padding-left: 12px;
+    }
+
+  }
+
+}
+
+.wp-core-ui {
+  span.select2-container {
+
+    input[type=text] {
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+  }
+}
+
+[class*="wc-wp-version-gte"] {
+
+  span.select2-container {
+
+    .select2-selection--multiple {
+      min-height: 26px;
+      border-color: #dee2e6;
+      border-radius: $border-radius;
+    }
+
+    .select2-selection--single {
+      margin: 0;
+      height: auto;
+      border-color: #2f55d4;
+
+      .select2-selection__rendered {
+        line-height: inherit;
+      }
+
+      .select2-selection__arrow {
+        top: 0;
+        height: 100%;
+      }
+
+    }
+
+    .select2-search--inline {
+
+      .select2-search__field {
+        min-height: 26px;
+
+        &:focus {
+          outline: none;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+

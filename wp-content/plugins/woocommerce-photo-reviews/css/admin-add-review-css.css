@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+th{
+    text-align: left;
+}
+th>p{
+    font-style: italic;
+    font-weight: normal;
+}
+.wcpr-review-image-container {
+    position: relative;
+    margin: 10px;
+    width: 100px;
+}
+.wcpr-review-image-container .wcpr-remove-image{
+    box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+    text-shadow: none;
+    height: auto;
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    text-transform: none;
+    font-weight: 300;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+.vi-ui .button{
+    height: auto !important;
+}
+#wcpr-new-image{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wcpr-review-image-container img {
+    width: 90px;
+    float: left;
+}
+.select2-search__field {
+    width: 100% !important;
+}

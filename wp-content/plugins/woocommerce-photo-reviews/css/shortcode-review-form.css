@@ -1,0 +1,410 @@
+@font-face {
+    font-family: "woocommerce-photo-reviews";
+    src: url("../fonts/woocommerce-photo-reviews.eot");
+    src: url("../fonts/woocommerce-photo-reviews.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/woocommerce-photo-reviews.woff") format("woff"),
+    url("../fonts/woocommerce-photo-reviews.ttf") format("truetype"),
+    url("../fonts/woocommerce-photo-reviews.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'star';
+    src: url('../fonts/star.eot');
+    src: url('../fonts/star.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/star.woff') format('woff'),
+    url('../fonts/star.ttf') format('truetype'),
+    url('../fonts/star.svg#star') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: 'star';
+        src: url("../fonts/star.svg") format("svg");
+    }
+}
+
+.woocommerce-photo-reviews-form-container .woocommerce-photo-reviews-form-main .woocommerce-photo-reviews-form-main-inner {
+    background: white;
+    max-width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.woocommerce-photo-reviews-form-container .woocommerce-photo-reviews-form-main .woocommerce-photo-reviews-form-main-top .woocommerce-photo-reviews-form-main-close {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #000000;
+    cursor: pointer;
+    transition: background 200ms ease;
+    border-radius: 0 5px 0 5px;
+}
+
+.woocommerce-photo-reviews-form-container .woocommerce-photo-reviews-form-main .woocommerce-photo-reviews-form-main-top .woocommerce-photo-reviews-form-main-close:hover {
+    background: rgba(1, 1, 1, .1);
+}
+
+.woocommerce-photo-reviews-form-container .woocommerce-photo-reviews-form-main .woocommerce-photo-reviews-form-main-top {
+    position: relative;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.woocommerce-photo-reviews-form-container .woocommerce-photo-reviews-form-main .woocommerce-photo-reviews-form-main-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.woocommerce-photo-reviews-form-container .woocommerce-photo-reviews-form-main .woocommerce-photo-reviews-form-main-top .woocommerce-photo-reviews-form-main-close:before {
+    font-family: "woocommerce-photo-reviews";
+    content: "\f101";
+}
+
+.woocommerce-photo-reviews-form-container * {
+    box-sizing: border-box !important;
+}
+
+.woocommerce-photo-reviews-form {
+    max-width: 100%;
+    width: 600px;
+    padding: 0 10px;
+}
+
+.woocommerce-photo-reviews-form-product {
+    max-width: 260px;
+    padding: 0 10px;
+}
+
+.comment-form-rating label {
+    display: block;
+}
+
+.woocommerce-photo-reviews-form-meta-reviews .woocommerce-product-rating {
+    line-height: 1em;
+    margin: 5px 0;
+}
+.woocommerce-photo-reviews-form .comment-form > div{
+    width: 100%;
+}
+.woocommerce-photo-reviews-form  .comment-form .comment-form-images,
+.woocommerce-photo-reviews-form .comment-form .comment-form-rating,
+.woocommerce-photo-reviews-form .comment-form p{
+    padding-left: 0;
+    padding-right: 0;
+    padding: 0;
+}
+
+/*Input file*/
+
+.wcpr-input-file-container .wcpr-input-file-wrap .wcpr-selected-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.wcpr-input-file-container .wcpr-input-file-wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wcpr-comment-form-images .wcpr-selected-image {
+    width: 30%;
+    max-width: 128px;
+    margin-bottom: 10px;
+}
+
+.wcpr-comment-form-images.wcpr-comment-form-images-with-caption .wcpr-selected-image {
+    width: 100%;
+    max-width: 100%;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.wcpr-comment-form-images.wcpr-comment-form-images-with-caption .wcpr-selected-image img.wcpr-selected-image-preview {
+    width: 25%;
+    max-width: 64px;
+}
+
+.wcpr-input-file-container .wcpr-input-file-wrap .wcpr-selected-image input {
+    margin: 0;
+}
+
+.wcpr-comment-form-images {
+    margin: .5em 0;
+    width: 100%;
+}
+
+.wcpr-comment-form-images.wcpr-comment-form-images-with-caption .wcpr-selected-image-info {
+    width: calc(100% - 64px);
+    padding-left: 10px;
+}
+
+.wcpr-comment-form-images .wcpr-selected-image-caption {
+    width: 100%;
+}
+.wcpr-comment-form-images .wcpr-selected-image-name {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .8em;
+    white-space: nowrap;
+}
+.wcpr-comment-form-images .wcpr_image_upload {
+    width: 100%;
+    margin-bottom: 10px;
+}
+/*custom fields*/
+.wcpr-custom-field {
+    margin: 8px 0;
+}
+
+.wcpr-custom-field .wcpr-custom-field-name {
+    font-size: 16px;
+}
+
+.wcpr-custom-field .wcpr-custom-field-input {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.wcpr-custom-field .wcpr-custom-field-input > div {
+    width: 48%;
+}
+
+.wcpr-custom-field .wcpr-custom-field-input > div input,
+.wcpr-custom-field-input > div select {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    font-size: 14px;
+}
+
+/*star*/
+.woocommerce-photo-reviews-form p.stars a {
+    position: relative;
+    height: 1em;
+    width: 1em;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    font-size: 14px;
+}
+
+.woocommerce-photo-reviews-form p.stars a:after {
+    position: static;
+}
+
+.woocommerce-photo-reviews-form p.stars a::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    font-family: "star";
+    content: "\53" !important;
+    text-indent: 0;
+    color: #ffb600;
+    opacity: .3;
+}
+
+.woocommerce-photo-reviews-form p.stars a:hover ~ a::before {
+    opacity: .3;
+}
+
+.woocommerce-photo-reviews-form p.stars:hover a::before {
+    opacity: 1;
+}
+
+.woocommerce-photo-reviews-form p.stars.selected a.active::before {
+    opacity: 1;
+}
+
+.woocommerce-photo-reviews-form p.stars.selected a.active ~ a::before {
+    opacity: .3;
+}
+
+.woocommerce-photo-reviews-form p.stars.selected a:not(.active)::before {
+    opacity: 1;
+}
+
+/*rating*/
+.woocommerce-photo-reviews-form-product .star-rating span {
+    font-family: "star" !important;
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+.woocommerce-photo-reviews-form-product .star-rating {
+    margin: 0 0 5px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1em;
+    font-family: "star" !important;
+    float: left;
+    padding-top: 1.5em;
+    font-size: 14px;
+    width: 5.5em;
+    letter-spacing: 1px;
+}
+
+.woocommerce-photo-reviews-form-product .star-rating:before {
+    color: #ffb600;
+    content: "\53\53\53\53\53";
+    opacity: .3;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+.woocommerce-photo-reviews-form-product .star-rating span:before {
+    backface-visibility: hidden;
+    color: #ffb600;
+    content: "\53\53\53\53\53";
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.woocommerce-photo-reviews-form-product .star-rating span {
+    height: 22px;
+}
+
+.woocommerce-photo-reviews-form-product .star-rating:before,
+.woocommerce-photo-reviews-form-product .star-rating span:before {
+    color: #ffb600;
+}
+
+.woocommerce-photo-reviews-form-product .star-rating:before {
+    opacity: 0.3 !important;
+}
+
+.rtl .woocommerce-photo-reviews-form-product .star-rating {
+    float: right;
+}
+
+.woocommerce-photo-reviews-form-meta-price {
+    clear: both;
+}
+
+/*custom fields in review*/
+span.wcpr-review-custom-field-value {
+    font-weight: 500;
+}
+
+span.wcpr-review-custom-field-name {
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .woocommerce-photo-reviews-form-container .woocommerce-photo-reviews-form-main .woocommerce-photo-reviews-form-main-content {
+        flex-wrap: wrap;
+    }
+}
+
+/*Title*/
+.wcpr-comment-form label,
+.wcpr-comment-form textarea {
+    margin: 0;
+    max-width: 100%;
+}
+.wcpr-comment-form .wcpr-comment-form-title input {
+    margin: 0;
+    width: 100%;
+}
+
+/*Button add review*/
+.woocommerce-photo-reviews-form-container.woocommerce-photo-reviews-form-popup .woocommerce-photo-reviews-form-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    background: rgba(1, 1, 1, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.woocommerce-photo-reviews-form-container.woocommerce-photo-reviews-form-popup .woocommerce-photo-reviews-form-main .woocommerce-photo-reviews-form-main-content {
+    background: white;
+    padding: 0 20px 0 20px;
+    height: 550px;
+    max-height: 100%;
+    overflow: auto;
+    align-items: flex-start;
+}
+
+.woocommerce-photo-reviews-form-container.woocommerce-photo-reviews-form-popup .woocommerce-photo-reviews-form-button-add-review-container {
+    display: block;
+    padding: 10px;
+}
+
+.woocommerce-photo-reviews-form-container.woocommerce-photo-reviews-form-popup .woocommerce-photo-reviews-form-button-add-review-container .woocommerce-photo-reviews-form-button-add-review {
+    padding: 5px 10px;
+    border: 1px solid rgba(1, 1, 1, .1);
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 200ms;
+    white-space: nowrap;
+}
+
+.woocommerce-photo-reviews-form-container.woocommerce-photo-reviews-form-popup .woocommerce-photo-reviews-form-button-add-review-container .woocommerce-photo-reviews-form-button-add-review:hover {
+    opacity: .7;
+}
+
+.woocommerce-photo-reviews-form-popup-hide .woocommerce-photo-reviews-form-main {
+    display: none !important;
+}
+
+.woocommerce-photo-reviews-form-container.woocommerce-photo-reviews-form-popup .form-submit {
+    position: sticky;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.woocommerce-photo-reviews-form-container.woocommerce-photo-reviews-form-popup .form-submit input[type="submit"] {
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 934px) {
+    .woocommerce-photo-reviews-form-container.woocommerce-photo-reviews-form-popup .woocommerce-photo-reviews-form-main .woocommerce-photo-reviews-form-main-content .woocommerce-photo-reviews-form-product {
+        position: sticky;
+        top: 0;
+    }
+}

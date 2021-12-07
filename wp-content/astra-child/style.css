@@ -1,0 +1,68 @@
+/**
+Theme Name: Astra Child
+Author: Golord
+Author URI: http://wpastra.com/about/
+Description: Astra 是最快、完全可定制且美观的主题，适用于博客、个人作品集和商业网站。
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+/* 移除数量输入框默认样式 */
+.input-text.qty.text::-webkit-outer-spin-button,
+.input-text.qty.text::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+/* 变体和单一产品购物车盒子 */
+.single-product .cart, .single-product .woocommerce-variation-add-to-cart{
+    display: flex;
+    flex-direction: column;
+}
+
+/* 数量盒子 */
+.quantity{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px !important;
+}
+
+/*购物车页面数量盒子*/
+.woocommerce-cart .quantity{
+	margin-bottom: 0 !important;
+}
+
+/* 数量文本 */
+.qty-text{
+    font-weight: 600;
+}
+
+/* 增减数量按钮 */
+.btnQ{
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    border-radius: 50%;
+    padding: 0 8px;
+    cursor: pointer;
+    font-family: "Courier New";
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    background: #f8f8f8;
+	-webkit-user-select: none;
+}
+
+/* 数量输入框 */
+.input-text.qty.text{
+    border: none !important;
+    width: 30px !important;
+    padding: 12px 0 !important;
+}
+
+/* 添加购物车按键 */
+.single_add_to_cart_button{
+	width:220px;
+	height:55px;
+}
+

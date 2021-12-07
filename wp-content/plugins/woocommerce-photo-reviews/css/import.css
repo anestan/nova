@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+th {
+    text-align: left;
+}
+
+th > p {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.vi-ui.toggle.checkbox label {
+    font-size: 14px;
+}
+
+.select2-search__field {
+    width: 100% !important;
+}
+input.vi-ui.button {
+    height: auto;
+}

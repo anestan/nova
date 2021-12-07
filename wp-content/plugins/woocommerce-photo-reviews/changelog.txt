@@ -1,0 +1,215 @@
+/**v1.1.5.4 - 2021.08.03**/
+- Fixed: masonry style with load-more button on Firefox
+
+/**v1.1.5.3 - 2021.07.24**/
+- Fixed: Error when enabling review country
+
+/**v1.1.5.2 - 2021.07.07**/
+- Updated: New masonry style if use load-more button
+
+/**v1.1.5.1 - 2021.06.28**/
+- updated: Allow customer to submit comments if disabled 'Comment author must fill out name and email'
+- Added: Add option 'Use product SLUG instead of ID' to import CSV
+- Added: Load-more button with ajax pagination
+- Added: Shortcode [wc_photo_reviews_overall_rating_html]
+- Added: Add “next” and “previous” links for shortcode pagination
+
+/**v1.1.5.0 - 2021.05.07**/
+- Added: Share reviews between different products
+- Updated: Compatible with Antispam Bee plugin of pluginkollektiv
+
+/**v1.1.4.9 - 2020.11.28**/
+- Fixed: Placeholder in email subject
+- Fixed: Coupon expiry date is not set when Advanced Coupons for WooCommerce Premium is active
+- Fixed: Hardcode date in the sample email
+- Added: Extension can now be used to import reviews from other amazon websites(by region) besides the international website amazon.com
+- Updated: Compatibility with WP 5.6
+
+/**v1.1.4.8 - 2020.10.17**/
+- Fixed: Wrong page after customers leave a review
+- Fixed: Some reviews is missing on Safari desktop when "Enable box shadow" option is on
+- Fixed: Product images not showing on Safari mobile in some cases relating to the use of "use strict"
+- Fixed: Replies do not show when a filter is selected
+- Added: Option to select which order statuses that button review will be available on My account/orders
+- Added: Ability to import AliExpress/Amazon reviews with chrome extension
+- Added: Compatibility with WooCommerce Email Template Customizer/Email Template Customizer for WooCommerce plugin from VillaTheme
+
+/**v1.1.4.7 - 2020.08.15**/
+- Fixed: Can not set proper Maximum photo size if upload_max_filesize is set with unit
+- Updated: Compatibility with WP 5.5 and WC 4.3
+- Added: Option to Restrict number of reviews
+
+/**v1.1.4.6 - 2020.07.30**/
+- Fixed: Some images not showing on masonry view
+- Fixed: Month- and year-based folders when using custom photos folder
+- Added: Preview images when customers upload
+- Update: Review form shortcode popup
+
+/**v1.1.4.5 - 2020.06.12**/
+- Fixed: Load reviews from all products when using ajax pagination and filter for single product page
+- Added: Option to show review form shortcode as popup(type='popup')
+- Improved: Button review on my account/orders
+
+/**v1.1.4.4 - 2020.05.21**/
+- Fixed: Can not click helpful button on popup
+- Fixed: Review shortcode and Elementor reviews widget
+
+/**v1.1.4.3 - 2020.05.20**/
+- Fixed: Review form issue on single product page with some themes
+- Fixed: Can not scroll review on mobile
+- Added: Bulk action to apply Phrases filter to existing reviews
+- Added: Option to turn Review title on/off
+- Added: Import/export review title
+- Added: Compatibility with Elementor
+- Updated: Compatibility with WP 5.4 and WC 4.1
+
+/**v1.1.4.2 - 2020.04.29**/
+- Fixed: WPML issue with newly added options since version 1.1.4
+- Fixed: Max content length issue when review contains html tags
+- Added: Option to show/hide country for reviews imported from AliExpress
+
+/**v1.1.4.1 - 2020.04.27**/
+- Fixed: Firefox regex issue
+- Added: Option to change Review title placeholder
+
+/**v1.1.4 - 2020.04.24**/
+- Fixed: Masonry issue on Iphone
+- Fixed: Review reminder links
+- Added: Review title
+- Added: Option to select order statuses to trigger Review reminder
+- Added: Option to allow empty review content
+- Added: Option to select folder to store reviews uploaded by customers and reviews imported from AliExpress/CSV
+- Added: Option to prefix photos of reviews uploaded by customers and photos of reviews imported from AliExpress/CSV
+- Added: Add use_single_product attribute for reviews shortcode [wc_photo_reviews_shortcode]
+- Added: More popup options: only image/off for masonry, lightbox for default view
+- Added: Ajax pagination and filters, default active filters when Ajax pagination is enabled
+- Added: Shortcode [wc_photo_reviews_rating_html]
+- Added: Link to review products on My account/orders
+- Added: Customize message after customers leave a review
+- Added: Phrases filter for reviews imported from AliExpress
+- Added: Options to select multiple ratings, multiple countries, review status when importing from AliExpress
+- Added: Max review content for Masonry layout
+
+/**v1.1.3.4 - 2019.10.24**/
+- Fixed: Products in reminder emails
+- Fixed: Structured data for masonry style
+- Fixed: Link to reviews form
+- Added: Exclude email addresses to receive reminder email
+- Updated: Import csv function
+
+/**v1.1.3.3 - 2019.08.08**/
+- Fixed: Click on reviews does not popup on iphone if reviews do not have images
+- Fixed: Import Reviews from Aliexpress function
+- Added: Option to not show Filters, Rating count & Overall rating if a product does not have any reviews
+- Added: Grid item border color for Masonry style
+
+/**v1.1.3.2 - 2019.07.27**/
+- Fixed: Use shortcode in single product page
+- Fixed: Can not deselect Review page for Review reminder
+- Added: Add product_id argument for new shortcode [woocommerce_photo_reviews_form]
+
+/**v1.1.3.1 - 2019.07.25**/
+- Fixed: Import reviews feature
+
+/**v1.1.3 - 2019.07.24**/
+- Fixed: WPML problem with past orders which have never used review reminder before
+- Updated: Masonry style
+- Added: Image caption
+- Added: Click to view full image on masonry popup
+- Added: Admin can rearrange images, click on image to edit or change in edit comment page
+- Added: Reviews count, overall rating for shortcode
+- Added: Reviews form shortcode [woocommerce_photo_reviews_form]
+- Added: Review page for review reminder using reviews form shortcode
+- Added: Import/export reviews
+- Added: Upvote/downvote buttons
+- Added: Optional fields
+- Added: Custom "from" address for coupon email and reminder email
+
+/**v1.1.2 - 2019.05.01**/
+- Added: Auto get key
+
+/**v1.1.1 - 2019.01.17**/
+- Fixed: Warning message in version v1.1.0
+- Fixed: Coupon not sent when turning on Verified owner is required
+- Fixed: Bulk action Send reminder not working with unregistered customer
+
+/**v1.1.0 - 2019.01.12**/
+- Fixed: Check SSL
+- Fixed: CSS
+- Added: Compatible WPML & Polylang
+- Added: One-time log-in review link: when customers click on button "Review now" for the first time in review reminder email, they will be logged-in if their billing email is registered to an account
+- Added: Add multiple images at once in admin when editing review or adding a review
+- Added: Option to display review author name as N***
+- Added: Option to include/exclude products/categories on which reviews will receive coupon
+- Added: Option to set unique coupon Exclude products, Included categories, Exclude categories
+- Added: Exclude categories to send review reminder
+- Added: Option to not send review reminder if reviews on a product do not receive coupon
+- Added: Preview emails
+- Added: Normal style for shortcode: [wc_photo_reviews_shortcode style="normal"]
+- Added: Filter for review images name when uploading
+- Updated: Only send review reminder with products in the order that the customer did not review
+- Updated: How coupon is given: Option to not give coupon for emails that do not have an account; an user/email can only receive one coupon for his/her review on a product no matter how many times he/she reviews that product
+- Optimized: Control image sizes: Only create custom size and remove other unwanted sizes for images uploaded when customers review, admins add/edit review in backend and images of reviews imported from AliExpress
+
+/**v1.0.9.2 - 2018.10.18**/
+- Fixed: Active purchased code
+- Fixed: Some text not translated
+- Fixed: Some import reviews images not downloaded
+- Fixed: Product images and price in review reminder
+- Added: Import reviews by country
+- Added: Filter reviews by rating, product at admin panel
+- Added: Admin can add reviews manually
+- Added: Ajax pagination and images rotation for normal Front-end style
+- Updated: Shorten unique coupon code
+
+/**v1.0.9.1 - 2018.07.24**/
+- Fixed: Disable mobile not working
+- Added: RTL support
+- Optimized: Filter reviews
+- Added: Customizable gdpr checkbox message
+- Added: Customizable verified owner text/badge
+
+/**v1.0.9 - 2018.05.22**/
+- Updated: Filter reviews
+- Added: GDPR policy checkbox
+- Added: Overall rating
+- Updated: Class Support
+
+/**v1.0.8.1 - 2018.05.09**/
+- Added: Custom css for shortcode [wc_photo_reviews_shortcode]
+
+/**v1.0.8 - 2018.05.08**/
+- Added: Import reviews from Aliexpress
+
+/**v1.0.7 - 2018.04.13**/
+- Added: Shortcode to all reviews [wc_photo_reviews_shortcode]
+- Added: Option display product summary(title, reviews, price, button add-to-cart) on masonry popup
+
+/**v1.0.6 - 2018.03.17**/
+- Fixed: masonry popup
+- Fixed: Send manual review reminder
+- Optimized: Photos uploaded, reduce unnecessary photos sizes
+- Added: Grid layout options: column number, grid color/background color, grid item color/bacground color, rating stars color.
+
+/**v1.0.5 - 2018.02.08**/
+- Fixed: unique coupon settings, broken grid view when there's 1 review(on firefox and microsoft edge), 'select all' check box not show on Woo order page
+- Added: custom css field for Reviews
+
+/**v1.0.4 - 2018.02.03**/
+- Updated: Admin can edit review images
+
+/**v1.0.3 - 2018.01.31**/
+- Fixed: coupon settings
+- Added: sort review by time(backend)
+- Updated: turn each filter button 'x stars' on/off, display photos and rating in comments list in backend, edit review reminder in order page
+
+/**v1.0.2 - 2018.01.25**/
+- Added: auto update, "Review Now" button style
+- Changed: Coupon expiry date
+
+/**v1.0.1 - 2018.01.23**/
+- fixed: email settings save
+- updated: products restriction in review reminder
+
+/**v1.0.0 - **/
+- The first release

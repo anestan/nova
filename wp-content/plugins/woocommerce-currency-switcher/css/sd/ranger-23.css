@@ -1,0 +1,100 @@
+:root {
+    --ranger23-handler-width: 30px;
+    --ranger23-handler-height: 20px;
+}
+
+.ranger23-container{
+    position: relative;
+    width: 100%;
+    height: var(--ranger23-handler-height);
+    background: #f1f8ff;
+    overflow: hidden;
+}
+
+.ranger23-handler-left,
+.ranger23-handler-right{
+    position: absolute;
+    z-index: 1;
+    height: var(--ranger23-handler-height);
+    width: var(--ranger23-handler-width);
+    background: #79b8ff;
+    outline: 1px solid #fff;
+    color: #fff;
+}
+
+.ranger23-handler-left{
+    left: 0;
+}
+
+.ranger23-handler-right{
+    right: 0;
+}
+
+.ranger23-handler-left:active, .ranger23-handler-right:active{
+    cursor: e-resize
+}
+
+.ranger23-handler-left span,
+.ranger23-handler-right span{
+    display: inline-block;
+    width: 100%;
+    height: var(--ranger23-handler-height);
+    padding-top: 35%;
+    user-select: none;
+    text-align: center;
+    line-height: 0;
+    font-size: 11px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.ranger23-bar{
+    position: absolute;
+    height: var(--ranger23-handler-height);
+    background: #c1e1ff;
+    width: calc(100% - 2*var(--ranger23-handler-width));
+    left: var(--ranger23-handler-width);
+}
+
+.ranger23-bar-var-equal{
+    background: repeating-linear-gradient(
+        135deg,
+        #f7f9fe,
+        #f7f9fe 3px,
+        #96588a 3px,
+        #96588a 6px
+        ) !important;
+}
+
+.ranger23-min,
+.ranger23-max{
+    position: absolute;
+    z-index: 0;
+    color: blueviolet;
+    top: 50%;
+    user-select: none;
+    line-height: 0;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.ranger23-min{
+    left: 2px;
+}
+
+.ranger23-max{
+    right: 2px;
+}
+
+.ranger23-handler-left-disabled{
+    background: #c1e1ff;
+    background: repeating-linear-gradient(
+        135deg,
+        #c1e1ff,
+        #c1e1ff 2px,
+        #92bce0 2px,
+        #92bce0 4px
+        ) !important;
+}
+
+

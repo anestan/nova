@@ -1,0 +1,147 @@
+/*!
+ * Selectron23 v.1.0.3 // 2021.05.24
+ * https://github.com/realmag777/selectron23
+ *
+ * You may use Selectron23 under the terms of the MIT license. Basically that
+ * means you are free to use Selectron23 as long as this header is left intact.
+ * Copyright 2021 Rostislav Sofronov
+ */
+
+.selectron23{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    transform: scale(1);
+    transform-origin: top left;   
+    z-index: 999999;
+}
+
+.selectron23 *{
+    box-sizing: content-box !important;
+}
+
+.selectron23-container{
+    font-family: sans-serif;
+    background: rgb(238, 238, 238);
+    border-radius: 2px;
+    border: solid 1px #eee;
+    cursor: pointer;
+    padding: 0;
+    width: inherit;
+    min-height: 1px;
+    max-height: 1px;
+    overflow: hidden;
+    position: absolute;
+    /* position: relative; */
+    width: 100%;
+    z-index: 9999;
+    user-select: none;
+    /* box-shadow: 0px 1px 3px #ddd; */
+}
+
+.selectron23-container .selectron23-option{
+    position: relative;
+    overflow: hidden;
+    padding: 9px 20px 9px 9px;
+    cursor: pointer;
+    background: #fcfcfc;
+    margin-bottom: 2px;
+    /* border-bottom: solid 1px #ddd; */
+    transition: all 0.25s ease-in-out;
+    /* text-shadow: 0px 1px 0.5px #fff; */
+}
+
+.selectron23-container .selectron23-option img{
+    margin-top: -3px;
+}
+
+.selectron23-container div:last-of-type{
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+}
+
+
+.selectron23-container .selectron23-option:hover{
+    background: #f5f5f5;
+}
+
+.selectron23-container .selectron23-option[data-selected='1']{
+    background: #fafafa;
+}
+
+
+.selectron23-option img{
+    max-width: 100%;
+    margin-right: 5px;
+    float: left;
+    vertical-align: middle;
+    border-radius: 0;
+}
+
+.selectron23-option-title{
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+.selectron23-option-text{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #aaa;
+    overflow: hidden;
+    font-weight: normal;
+    line-height: 1.4em;
+    font-size: 12px;
+}
+
+.selectron23-container > span{
+    border-color: #000;
+    border: none;
+    color: #000;
+}
+
+.selectron23-container[data-opened="0"] > span {
+    border: solid 5px transparent;
+    border-top: solid 5px;
+}
+
+.selectron23-container[data-opened="1"] > span {
+    border: solid 5px transparent;
+    border-bottom: solid 5px;
+    margin-top: -8px;
+}
+
+.selectron23-container > span {
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 10px;
+    margin-top: 0;
+}
+
+
+
+/* Works on Firefox */
+.selectron23 * {
+    scrollbar-width: thin;
+    scrollbar-color: #fcfcfc #ddd;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.selectron23 *::-webkit-scrollbar {
+    width: 12px;
+}
+
+.selectron23 *::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.selectron23 *::-webkit-scrollbar-thumb {
+    background-color: #fcfcfc;
+    border-radius: 20px;
+    border: 3px solid #ddd;
+}
+
